@@ -1,0 +1,120 @@
+.mis {
+    height: 9em;
+    width: 10em;
+}
+
+.h1 {
+    float: right;
+    margin-right: 20.5em;
+    color: rgb(25, 25, 128);
+    margin-top: 0.5em;
+}
+
+#nav {
+    background-color: rgb(25, 25, 128);
+    height: 4em;
+    width: 100%;
+}
+
+.ol {
+    list-style-type: none;
+    display: flex;
+}
+
+li {
+    margin-right: 4.5em;
+    font-size: 24px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    margin-top: 0.7em;
+}
+
+.a-li {
+    color: #007BFF;
+}
+
+.a-li:link {
+    text-decoration: none;
+}
+
+.a-li:visited {
+    color: #007BFF
+}
+
+.a-li:hover {
+    color: #f1f1f1;
+    font-weight: bold;
+}
+
+.a-li:active {
+    color: white;
+}
+
+.h1 {
+    margin-top: 3em;
+    color: rgb(3, 3, 43);
+    margin-left: 2em;
+}
+
+.p2 {
+    float: right;
+    font-size: 22px;
+    color: rgb(3, 3, 43);
+    margin-right: 2em;
+    margin-top: -12.5em;
+}
+
+.sec {
+    height: 35em;
+    width: 90%;
+    border-radius: 3em;
+    margin-top: 20em;
+    align-self: center;
+    text-align: center;
+    background-color: rgba(24, 90, 177, 0.877);
+    margin-left: 5em;
+}
+
+.sec-h1 {
+    color: rgb(3, 3, 43);
+    float: left;
+    margin-left: 3em;
+    margin-top: 1.5em;
+    color: rgb(255, 208, 0);
+    font-size: 3em;
+}
+
+.sec-p {
+    float: left;
+    margin-top: 8em;
+    margin-left: -15em;
+    text-align: left;
+    color: white;
+    font-size: 20px;
+}
+
+.sec2 {
+    height: 35em;
+    width: 90%;
+    border-radius: 3em;
+    margin-top: 10em;
+    align-self: center;
+    text-align: center;
+    background-color: rgba(3, 3, 43, 0.87);
+    margin-left: 5em;
+}
+
+.sec2-h1 {
+    color: white;
+    text-align: center;
+    padding-top: 1em;
+}
+
+.div1 {
+    color: rgb(255, 208, 0);
+}
+
+.div2 {
+    color: white;
+    padding-top: 1em;
+}

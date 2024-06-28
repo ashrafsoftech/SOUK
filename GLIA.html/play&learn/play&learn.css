@@ -1,0 +1,52 @@
+    img {
+        height: 9em;
+        width: 10em;
+        margin-left: 1em;
+    }
+    
+    #nav {
+        background-color: rgb(25, 25, 128);
+        height: 4em;
+        width: 100%;
+    }
+    
+    .ol {
+        list-style-type: none;
+        display: flex;
+        align-content: center;
+    }
+    
+    li {
+        margin-left: 45%;
+        font-size: 40px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: white;
+        margin-top: 0.1em;
+    }
+    
+    a {
+        color: white;
+    }
+    
+    a:link {
+        text-decoration: lawngreen;
+    }
+    
+    a:hover {
+        color: yellow;
+    }
+    
+    a:active {
+        color: yellow;
+    }
+    
+    p {
+        text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 24px;
+        color: darkblue;
+    }
+    
+    #form {
+        margin-left: 50%;
+    }

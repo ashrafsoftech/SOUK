@@ -1,0 +1,2374 @@
+@font-face{
+	font-family: Orelega;
+	src: url(fonts/Orelega_One/OrelegaOne-Regular.ttf);
+}
+@font-face{
+	font-family: silky;
+	src: url(fonts/silky_queen/Silky\ Queen.otf);
+}
+@font-face{
+	font-family: vollkorn;
+	src: url(fonts/Vollkorn/static/Vollkorn-Medium.ttf);
+}
+@font-face{
+	font-family: vollkorn_bold;
+	src: url(fonts/Vollkorn/static/Vollkorn-SemiBold.ttf);
+}
+@font-face{
+	font-family: pacifico;
+	src: url(fonts/Pacifico/Pacifico-Regular.ttf)
+}
+@font-face{
+	font-family: gasoek;
+	src: url(fonts/Gasoek_One/GasoekOne-Regular.ttf)
+}
+@font-face{
+	font-family: sofia;
+	src: url(fonts/Sofia/Sofia-Regular.ttf)
+}
+@font-face{
+	font-family: cherry;
+	src: url(fonts/Cherry_Bomb_One/CherryBombOne-Regular.ttf);
+}
+
+@font-face {
+	font-family: "FontAwesome";
+	font-display: block;
+	src: url("../webfonts/fa-v4compatibility.woff2") format("woff2"), url("../webfonts/fa-v4compatibility.ttf") format("truetype");
+	unicode-range: U+F041,U+F047,U+F065-F066,U+F07D-F07E,U+F080,U+F08B,U+F08E,U+F090,U+F09A,U+F0AC,U+F0AE,U+F0B2,U+F0D0,U+F0D6,U+F0E4,U+F0EC,U+F10A-F10B,U+F123,U+F13E,U+F148-F149,U+F14C,U+F156,U+F15E,U+F160-F161,U+F163,U+F175-F178,U+F195,U+F1F8,U+F219,U+F27A; }
+  
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+body{
+	margin: 0;
+	padding: 0;
+	background-color: orange;
+	font-family: vollkorn;
+	
+	
+}
+
+
+
+
+
+header{
+	display: flex;
+	background-color: orange;
+	width: 100%;
+	height: 60px;
+	top: 0;
+	left: 0;
+}
+#AD{
+	left: 1em;
+	bottom: 1em;
+	position: relative;
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	color: white;
+	font-weight: bolder;
+	font-size: 20px;
+	display: flex;
+}
+#AD img{
+	width: 55px;
+	height: 56px;
+	padding-bottom: -3em;
+	position: absolute;
+}
+#AD span {
+	padding: 1px 20px 1px 20px;
+	background-color: orangered;
+	font-family: "FontAwesome";
+	
+} 
+#NO{
+	margin-left: 17em;
+	width: 200px;
+	height: 60px;
+	background-color: lightblue;
+	text-align: center;
+	font-family: Orelega;
+	font-size: 1em;
+
+
+}
+#NO span{
+	font-weight: bolder;
+	letter-spacing: 3px;
+	font-family: Orelega;
+}
+
+
+
+
+
+#sec_head{
+	
+	display: flex;
+	background-color: #ecdfdf;
+	
+}
+
+#sec_head #img{
+	width: 40px;
+	height: 40px;
+	margin-left: 5em;
+}
+#sec_head #p{
+	font-size: 13px;
+	color: orange;
+	font-family: vollkorn;
+}
+.sell{
+	color: orange;
+}
+.sell:link{
+	text-decoration: none;
+}
+.sell:visited{
+	text-decoration: underline orange;
+}
+.sell:hover{
+	text-decoration: underline orange;
+}
+
+#sec_head-sec_p{
+	margin-left: 18em;
+	color: black;
+	font-size: 13px;
+	font-family: vollkorn;
+	cursor: default;
+}
+#sec_head-sec_img{
+	width: 40px;
+	height: 40px;
+	position: relative;
+}
+
+#img1{
+	opacity: 5em;
+	width: 30px;
+	height: 30px;
+	margin-left: 4em;
+	top: .2em;
+	position: relative;
+	
+}
+#p1{
+	font-size: 13px;
+	color: orange;
+	font-family: orelega;
+	position: relative;
+	letter-spacing: 1px;
+}
+
+.pay{
+	color: #c7acac;
+}
+.pay:link{
+	text-decoration: none;
+}
+.pay:visited{
+	color: #c7acac;
+}
+.pay:hover{
+	color: blue;
+}
+.pay:active{
+	color: blue;
+}
+
+.others{
+	color: #c7acac;
+}
+.others:link{
+	text-decoration: none;
+}
+.others:visited{
+	color: #c7acac;
+}
+.others:hover{
+	color: orange;
+}
+.others:active{
+	color: orange;
+}
+
+
+
+
+
+#search{
+	width: 100%;
+	height: 70px;
+	background-color: white;
+	display: flex;
+	text-align: center;
+	
+}
+
+#search #h1{
+	font-family: cherry;
+	font-size: 44px;
+	margin-left: 2em;
+	position: relative;
+	top: -1.1em;
+}
+#search #main_logo{
+	align-self: center; 
+	width: 60px;
+	height: 60px;
+}
+#search input{
+	width: 450px;
+	height: 40px;
+	align-self: center;
+	border-radius: .8em;
+	border: 1px solid #c7acac;
+	display: inline-block;
+    margin-left: 4em;
+}
+
+#search .search_btn{
+	background-color: orange;
+	color: white;
+	font-size: 18px;
+	border: none;
+	border-radius: 8px;
+	width: 100px;
+	height: 40px;
+	align-self: center;
+	margin-left: 1em;
+	box-shadow: 0px 5px 6px 0px rgba(0, 0, 0, 0.4);
+	
+}
+#search .search_btn:hover{
+	background-color: rgb(233, 160, 24);
+}
+.search_btn a{
+	color: white;
+}
+.search_btn a:link{
+	text-decoration: none;
+}
+.search_btn a:visited{
+	color: white;
+}
+.search_btn a:hover{
+	font-weight: bolder;
+}
+
+.dropbtn {
+	background-color: orange;
+	color: white;
+	font-size: 16px;
+	border: none;
+	text-align: center;
+	width: 100px;
+	height: 40px;
+	border-radius: .8em;
+	margin-left: 2em;
+	cursor: pointer;
+}
+
+.dropbtn img{
+	align-self: center;
+	color: white;
+	
+}
+
+.dropdown {
+	
+	margin-top: auto;
+	margin-bottom: auto;
+	display: block;
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 180px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.3);
+	z-index: 1;
+} 
+/* Links inside the dropdown */
+
+ .dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block; 
+}
+/* Change color of dropdown links on hover */
+
+ .dropdown-content a:hover {
+	background-color: #ddd;
+}
+/* Show the dropdown menu on hover */
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+/* Change the background color of the dropdown button when the dropdown content is shown */
+
+ .dropdown:hover .dropbtn {
+	font-weight: bolder;
+}
+ #signIn{
+	color: white;
+	background-color: orange;
+	padding: 10px;
+	border-radius: 7px;
+	width: 100px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+#signIn:link{
+	text-decoration: none;
+}
+#signIn:hover{
+	background-color: rgb(204, 140, 22);
+}
+#Acc{
+	text-align: left;
+	display: flex;
+	font-size: 16px;
+}
+#Acc #a{
+	color: black;
+}
+#Acc #a:link{
+	text-decoration: none;
+}
+#Acc:hover{
+	background-color: #ccccccad;
+}
+
+
+#help_div{
+	text-align: left;
+}
+#help_div:hover{
+	background-color: #ccccccad;
+}
+#help_div #a{
+	color: black;
+	font-size: 12px;
+	
+}
+#help_div #a:link{
+	color: black;
+	text-decoration: none;
+}
+#liveChat{
+	color: white;
+	background-color: orange;
+	padding: 10px;
+	border-radius: 7px;
+	top: 1em;
+	position: relative;
+	top: -1.5em;
+}
+#liveChat:link{
+	text-decoration: none;
+}
+#liveChat:hover{
+	background-color: rgb(204, 140, 22);
+}
+
+#cart{
+	background-color: orange;
+	border: none;
+	border-radius: 1em;
+	margin-left: 2em;
+	width: 100px;
+	height: 40px;
+	align-self: center;
+	cursor: pointer;
+}
+#cart a{
+	color: white;
+}
+#cart a:link{
+	text-decoration: none;
+}
+#cart a:hover{
+	color: white;
+	text-decoration: underline;
+}
+
+/* #third_head_img{
+	width: 40px;
+	height: 40px;
+	margin-top: auto;
+	margin-bottom: auto;
+} */
+
+
+
+
+#sec4{
+	display: flex;
+	margin-top: 1em;
+	background-image: url(pic/slider_pics/6.png);
+	background-repeat: repeat-x;
+	background-size: 54%;
+
+}
+/* the first menu beside the slider */
+.menu{
+	width: 200px;
+	height: 400px;
+	background-color: white;
+	margin-left: 5.6em;
+	border-radius: 1em;
+	
+	
+}
+/* Dropdown Button */
+.menu_dropbtn{
+	font-size: 12px;
+	padding-left: 2em;
+	margin-top: 2em;
+	line-height: .7em;
+}
+.menu_dropbtn:hover{
+	color: rgb(204, 140, 22);
+	cursor: pointer;
+	font-size: 14px;
+
+}
+
+
+/* The container <div> - needed to position the dropdown content */
+.menu_dropdown {
+	position: relative;
+	display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+.menu_dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: white;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	left: 14.1em;
+	top: 0em;
+	width: 750px;
+  	height: 400px;
+	border-radius: 1em;
+}
+  
+  /* Links inside the dropdown */
+.menu_dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+.menu_dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+/* Show the dropdown menu on hover */
+/* .menu_dropdown:hover .menu_dropdown-content {
+	display: block;
+}*/
+
+  
+/* Change the background color of the dropdown button when the dropdown content is shown */
+/* .menu_dropdown:hover .menu_dropbtn {background-color: none} */
+
+
+
+
+
+
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  	max-width: 800px;
+  	height: 450px;
+  	position: relative;
+	margin: auto;
+  	left: -2.35em;
+}
+
+/* Hide the images by default */
+.mySlides {
+  	display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  	cursor: pointer;
+  	position: absolute;
+  	top: 11em;
+  	width: auto;
+  	margin-top: -22px;
+  	padding: 16px;
+  	color: white;
+  	font-weight: bold;
+  	font-size: 18px;
+  	transition: 0.6s ease;
+  	border-radius: 0 3px 3px 0;
+  	user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  	right: 0;
+  	border-radius: 180px 0 0 180px;
+}
+
+/* Position the "prev button" to the right */
+.prev {
+	left: 0;
+	border-radius: 0 180px 180px 0;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  	background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  	color: #f2f2f2;
+  	font-size: 15px;
+  	padding: 8px 12px;
+  	position: absolute;
+  	bottom: 8px;
+  	width: 100%;
+  	text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  	color: #f2f2f2;
+  	font-size: 12px;
+  	padding: 8px 12px;
+  	position: absolute;
+  	top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  	cursor: pointer;
+  	height: 15px;
+  	width: 15px;
+  	margin: 0 2px;
+	position: relative;
+	top: -1em;
+  	background-color: #bbb;
+  	border-radius: 50%;
+  	display: inline-block;
+  	transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  	background-color: rgb(248, 52, 215);
+}
+
+/* Fading animation */
+.fade {
+  	animation-name: fade;
+  	animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  	from {opacity: .4} 
+  	to {opacity: 1}
+}
+
+
+
+
+
+
+/* the image links after the slider */
+#shops{
+	position: relative;
+	right: 4.8em;
+	
+}
+.shop1{
+	background-color: white;
+	width: 200px;
+	height: 190px;
+	border-radius: 1em;
+}
+.shop1 div{
+	display: flex;
+}
+.shop1_first img{
+	width: 38px;
+	height: 38px;
+	/* position: relative; */
+	margin-top: 1.2em;
+	margin-left: .9em;
+}
+.shop1_first p{
+	font-size: 15px;
+	margin-top: 1.1em;
+	margin-left: .7em;
+	color: black;
+	position: relative;
+	font-weight: bold;
+}
+.shop1_first p span{
+	position: relative;
+	color: black;
+	
+}
+
+.shop1_sec img{
+	width: 38px;
+	height: 38px;
+	/* position: relative; */
+	margin-top: em;
+	margin-left: .9em;
+}
+.shop1_sec p{
+	font-size: 15px;
+	margin-top: 1em;
+	margin-left: .7em;
+	color: black;
+	position: relative;
+	font-weight: bold;
+}
+.shop1_third img{
+	width: 38px;
+	height: 38px;
+	/* position: relative; */
+	margin-top: .6em;
+	margin-left: .9em;
+}
+.shop1_third p{
+	font-size: 15px;
+	margin-top: 1em;
+	margin-left: .7em;
+	color: black;
+	position: relative;
+	font-weight: bold;
+}
+.shop2{
+	background-image: url(pic/shop_earn.png);
+	background-size: 260px;
+	/* background-color: blue; */
+	width: 200px;
+	height: 190px;
+	border-radius: 1em;
+	margin-top: 20px;
+}
+
+
+
+
+
+
+#sec5{
+	background-color: white;
+	width: 88%;
+	height: 29em;
+	position: relative;
+	left: 6%;
+	border-radius: .5em;	
+}
+.thumbs{
+	display: flex;
+	text-align: center;
+	align-items: center;
+	padding-top: .8em;
+
+}
+.thumbs div{
+	/* border: 1px dotted black; */
+	width: 13em;
+	height: 14em;
+	position: relative;
+	cursor: pointer;
+	
+}
+.thumbs div:hover{
+	opacity: 1.0;
+    transition: opacity 5s;
+    transition-delay: 1s;
+	transform: rotate(5deg);
+    transform: scale(1.04,1.04);
+}
+.thumbs div img{
+	width: 11em;
+	background-image: pink;
+	
+	border-radius: 1em;
+	position: relative;
+}
+.thumbs div p{
+	position: relative;
+	top: -1.3em;
+}
+
+
+
+
+
+
+#sec6{
+	margin-top: 1em;
+	background-color: white;
+	width: 88%;
+	height: 21em;
+	position: relative;
+	left: 6%;
+	border-radius: .5em;
+}
+#sec6 .top_selling{
+	width: 100%;
+	height: 3em;
+	display: flex;
+	font-family: vollkorn;
+	font-size: 18px;
+	/* border: 1px dotted black; */
+}
+#sec6 .top_selling .p1{
+	position: relative;
+	left: 2em;
+	
+}
+#sec6 .top_selling .p2{
+	left: 77%;
+	position: relative;
+	top: -12px;
+	color: #ff9900;
+	cursor: pointer;
+	
+}
+#sec6 .top_selling .p2:hover{
+	cursor: pointer;
+	opacity: 1.0;
+    transition: opacity 5s;
+    transition-delay: 1s;
+	transform: rotate(5deg);
+	transform: scale(1.04,1.04);
+}
+#sec6 .top_selling .p2 img{
+	width: 30px;
+	top: 8px;
+	position: relative;
+	background-color: #ff9900;
+	cursor: pointer;
+	opacity: 1.0;
+    transition: opacity 5s;
+    transition-delay: 1s;
+	transform: rotate(5deg);
+	transform: scale(1.04,1.04);
+	
+}
+#sec6 .top_selling .p2 img:hover{
+	opacity: 1.0;
+    transition: opacity 5s;
+    transition-delay: 1s;
+	transform: rotate(5deg);
+	transform: scale(1.04,1.04);
+}
+.top_selling_thumbs{
+	display: flex;
+	text-align: center;
+	align-items: center;
+	padding-top: .8em;
+
+}
+.top_selling_thumbs div{
+	/* border: 1px dotted black; */
+	width: 13em;
+	height: 18em;
+	position: relative;
+	cursor: pointer;
+	
+}
+.top_selling_thumbs div:hover{
+	opacity: 1.0;
+    transition: opacity 5s;
+    transition-delay: 1s;
+	transform: rotate(5deg);
+    transform: scale(1.04,1.04);
+}
+.top_selling_thumbs div img{
+	width: 11em;
+	background-image: pink;
+	
+	border-radius: 1em;
+	position: relative;
+}
+.top_selling_thumbs div p{
+	position: relative;
+	top: 13px;
+	margin-top: -10px;
+	left: 1.2em;
+	text-align: left;
+	font-size: 15px;
+}
+.top_selling_thumbs div .p1{
+	font-size: 13px;
+}
+.top_selling_thumbs div .stroked{
+	text-decoration: line-through;
+	color: gray;
+	margin-top: -15px;
+}
+
+
+
+
+
+
+#sec7{
+	margin-top: 1em;
+	background-color: white;
+	width: 88%;
+	height: 24em;
+	position: relative;
+	left: 6%;
+	border-radius: .5em;
+}
+#sec7 .flashSale{
+	width: 100%;
+	height: 3em;
+	display: flex;
+	font-family: vollkorn;
+	font-size: 18px;
+	/* border: 1px dotted black; */
+	border-radius: .5em .5em 0 0;
+	background-color: red;
+}
+#sec7 .flashSale .p1{
+	position: relative;
+	left: 2em;
+	
+}
+#sec7 .flashSale .p2{
+	left: 81%;
+	position: relative;
+	top: -12px;
+	color: #ff9900;
+	cursor: pointer;
+	
+}
+#sec7 .flashSale .p2:hover{
+	cursor: pointer;
+	opacity: 1.0;
+    transition: opacity 5s;
+    transition-delay: 1s;
+	transform: rotate(5deg);
+	transform: scale(1.04,1.04);
+}
+#sec7 .flashSale .p2 img{
+	width: 30px;
+	top: 8px;
+	position: relative;
+	background-color: #ff9900;
+	cursor: pointer;
+	opacity: 1.0;
+    transition: opacity 5s;
+    transition-delay: 1s;
+	transform: rotate(5deg);
+	transform: scale(1.04,1.04);
+	
+}
+#sec7 .flashSale .p2 img:hover{
+	opacity: 1.0;
+    transition: opacity 5s;
+    transition-delay: 1s;
+	transform: rotate(5deg);
+	transform: scale(1.04,1.04);
+}
+.flashSale_thumbs{
+	display: flex;
+	text-align: center;
+	align-items: center;
+	padding-top: .8em;
+
+}
+.flashSale_thumbs div{
+	/* border: 1px dotted black; */
+	width: 13em;
+	height: 18em;
+	position: relative;
+	cursor: pointer;
+	
+}
+.flashSale_thumbs div:hover{
+	opacity: 1.0;
+    transition: opacity 5s;
+    transition-delay: 1s;
+	transform: rotate(5deg);
+    transform: scale(1.04,1.04);
+}
+.flashSale_thumbs div img{
+	width: 11em;
+	background-image: pink;
+	
+	border-radius: 1em;
+	position: relative;
+}
+.flashSale_thumbs div p{
+	position: relative;
+	top: 13px;
+	margin-top: -10px;
+	left: 1.2em;
+	text-align: left;
+	font-size: 15px;
+}
+.flashSale_thumbs div .p1{
+	font-size: 13px;
+}
+.flashSale_thumbs div .stroked{
+	text-decoration: line-through;
+	color: gray;
+	margin-top: -15px;
+}
+
+
+
+
+
+
+
+/* Slideshow container
+.slideshow1-container {
+	margin-top: 1em;
+	background-color: white;
+	max-width: 88%;
+	height: 21em;
+	position: relative;
+  	
+	left: 6%;
+	border-radius: .5em;
+}
+.slideshow1-container .flashSale{
+	width: 100%;
+	height: 3em;
+	display: flex;
+	font-family: vollkorn;
+	font-size: 18px;
+	border: 1px dotted black;
+	background-color: red;
+}
+.slideshow1-container .flashSale .p1{
+	position: relative;
+	left: 2em;
+	
+}
+.slideshow1-container .flashSale .p2{
+	left: 77%;
+	position: relative;
+	top: -12px;
+	color: #ff9900;
+	cursor: pointer;
+	
+}
+.slideshow1-container .flashSale .p2:hover{
+	cursor: pointer;
+	opacity: 1.0;
+    transition: opacity 5s;
+    transition-delay: 1s;
+	transform: rotate(5deg);
+	transform: scale(1.04,1.04);
+}
+.slideshow1-container .flashSale .p2 img{
+	width: 30px;
+	top: 8px;
+	position: relative;
+	background-color: #ff9900;
+	cursor: pointer;
+	opacity: 1.0;
+    transition: opacity 5s;
+    transition-delay: 1s;
+	transform: rotate(5deg);
+	transform: scale(1.04,1.04);
+	
+}
+.slideshow1-container .flashSale .p2 img:hover{
+	opacity: 1.0;
+    transition: opacity 5s;
+    transition-delay: 1s;
+	transform: rotate(5deg);
+	transform: scale(1.04,1.04);
+}
+.slideshow1-container .flashSale_thumbs2{
+	display: flex;
+	text-align: center;
+	align-items: center;
+	
+
+}
+/* Hide the images by default */
+/* .slideshow1-container .flashSale_thumbs2 .mySlidesOne {
+/	display: none;
+	border: 1px dotted black;
+	width: 13em;
+	height: 18em;
+	position: relative;
+	cursor: pointer;
+}
+.slideshow1-container .flashSale_thumbs2 .mySlidesOne:hover{
+	opacity: 1.0;
+    transition: opacity 5s;
+    transition-delay: 1s;
+	transform: rotate(5deg);
+    transform: scale(1.04,1.04);
+}
+.slideshow1-container .flashSale_thumbs2 .mySlidesOne img{
+	width: 11em;
+	background-image: pink;
+	
+	border-radius: 1em;
+	position: relative;
+}
+.slideshow1-container .flashSale_thumbs2 .mySlidesOne p{
+	position: relative;
+	top: 13px;
+	margin-top: -10px;
+	left: 1.2em;
+	text-align: left;
+	font-size: 15px;
+}
+.slideshow1-container .flashSale_thumbs2 .mySlidesOne .p1{
+	font-size: 13px;
+}
+.slideshow1-container .flashSale_thumbs2 .mySlidesOne .stroked{
+	text-decoration: line-through;
+	color: gray;
+	margin-top: -15px;
+}
+
+/* Next & previous buttons */
+/* .slideshow1-container .prev, .next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	margin-top: -22px;
+	padding: 16px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+} */
+
+/* Position the "next button" to the right */
+/* .slideshow1-container .next {
+	right: 0;
+	border-radius: 180px 0 0 180px;
+} */
+
+/* Position the "prev button" to the right */
+/* .slideshow1-container .prev {
+  left: 0;
+  border-radius: 0 180px 180px 0;
+} */
+
+/* On hover, add a black background color with a little bit see-through */
+/* .slideshow1-container .prev:hover, .next:hover {
+	background-color: rgba(0,0,0,0.8);
+} */
+
+/* Caption text */
+/* .slideshow1-container .text {
+	color: #f2f2f2;
+	font-size: 15px;
+	padding: 8px 12px;
+	position: absolute;
+	bottom: 8px;
+	width: 100%;
+	text-align: center;
+} */
+
+/* Number text (1/3 etc) */
+/* .slideshow1-container .numbertext {
+	color: #f2f2f2;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+} */
+
+/* The dots/bullets/indicators */
+/* .slideshow1-container .dotOne {
+	cursor: pointer;
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+  	position: relative;
+ 	top: -1em;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+
+.slideshow1-container .active, .dotOne:hover {
+	background-color: rgb(248, 52, 215);
+} */
+
+/* Fading animation */
+/* .slideshow1-container .fade {
+	animation-name: fade;
+	animation-duration: 1.5s;
+} */
+
+
+
+
+
+
+
+
+
+#sec9{
+	margin-top: 1em;
+	background-color: white;
+	width: 88%;
+	height: 17em;
+	position: relative;
+	left: 6%;
+	border-radius: .5em;
+	display: flex;
+}
+#sec9_1{
+	width: 50%;
+	height: 17em;
+	
+}
+#sec9_1 img{
+	border-radius: 1em;
+	padding: 10px 5px 10px 10px;
+}
+#sec9_1 img:hover{
+	opacity: 1.0;
+    transition: opacity 5s;
+    transition-delay: 1s;
+	transform: rotate(5deg);
+    transform: scale(1.02,1.02);
+}
+#sec9_2{
+	width: 50%;
+	height: 17em;
+	
+}
+#sec9_2 img{
+	border-radius: 1em;
+	padding: 10px 5px 10px 10px;
+}
+#sec9_2 img:hover{
+	opacity: 1.0;
+    transition: opacity 5s;
+    transition-delay: 1s;
+	transform: rotate(5deg);
+    transform: scale(1.02,1.02);
+}
+
+
+
+
+
+
+
+
+
+#sec10{
+	margin-top: 1em;
+	background-color: white;
+	width: 88%;
+	height: 78em;
+	position: relative;
+	left: 6%;
+	border-radius: .5em;
+}
+#sec10 .AnniversaryDeals{
+	width: 100%;
+	height: 3em;
+	display: flex;
+	font-family: vollkorn;
+	font-size: 18px;
+	/* border: 1px dotted black; */
+	background-color: orangered;
+	border-radius: .4em .4em 0 0;
+}
+#sec10 .AnniversaryDeals .p1{
+	position: relative;
+	left: 2em;
+	
+}
+#sec10 .AnniversaryDeals .p2{
+	left: 70%;
+	position: relative;
+	top: -12px;
+	color: #ff9900;
+	cursor: pointer;
+	
+}
+#sec10 .AnniversaryDeals .p2:hover{
+	cursor: pointer;
+	opacity: 1.0;
+    transition: opacity 5s;
+    transition-delay: 1s;
+	transform: rotate(5deg);
+	transform: scale(1.04,1.04);
+}
+#sec10 .AnniversaryDeals .p2 img{
+	width: 30px;
+	top: 8px;
+	position: relative;
+	background-color: #ff9900;
+	cursor: pointer;
+	opacity: 1.0;
+    transition: opacity 5s;
+    transition-delay: 1s;
+	transform: rotate(5deg);
+	transform: scale(1.04,1.04);
+	
+}
+#sec10 .AnniversaryDeals .p2 img:hover{
+	opacity: 1.0;
+    transition: opacity 5s;
+    transition-delay: 1s;
+	transform: rotate(5deg);
+	transform: scale(1.04,1.04);
+}
+.AnniversaryDeals_thumbs{
+	display: flex;
+	text-align: center;
+	align-items: center;
+	padding-top: .8em;
+
+}
+.AnniversaryDeals_thumbs div{
+	/* border: 1px dotted black; */
+	width: 13em;
+	height: 18em;
+	position: relative;
+	cursor: pointer;
+	
+}
+.AnniversaryDeals_thumbs div:hover{
+	opacity: 1.0;
+    transition: opacity 5s;
+    transition-delay: 1s;
+	transform: rotate(5deg);
+    transform: scale(1.04,1.04);
+}
+.AnniversaryDeals_thumbs div img{
+	width: 11em;
+	background-image: pink;
+	
+	border-radius: 1em;
+	position: relative;
+}
+.AnniversaryDeals_thumbs div p{
+	position: relative;
+	top: 13px;
+	margin-top: -10px;
+	left: 1.2em;
+	text-align: left;
+	font-size: 15px;
+}
+.AnniversaryDeals_thumbs div .p1{
+	font-size: 13px;
+}
+.AnniversaryDeals_thumbs div .stroked{
+	text-decoration: line-through;
+	color: gray;
+	margin-top: -15px;
+}
+
+
+
+
+
+
+
+
+
+#sec11{
+	margin-top: 1em;
+	background-color: white;
+	width: 88%;
+	height: 17em;
+	position: relative;
+	left: 6%;
+	border-radius: .5em;
+	display: flex;
+}
+#sec11_1{
+	width: 50%;
+	height: 17em;
+	
+}
+#sec11_1 img{
+	border-radius: 1em;
+	padding: 10px 5px 10px 10px;
+}
+#sec11_1 img:hover{
+	opacity: 1.0;
+    transition: opacity 5s;
+    transition-delay: 1s;
+	transform: rotate(5deg);
+    transform: scale(1.02,1.02);
+}
+#sec11_2{
+	width: 50%;
+	height: 17em;
+	
+}
+#sec11_2 img{
+	border-radius: 1em;
+	padding: 10px 5px 10px 10px;
+}
+#sec11_2 img:hover{
+	opacity: 1.0;
+    transition: opacity 5s;
+    transition-delay: 1s;
+	transform: rotate(5deg);
+    transform: scale(1.02,1.02);
+}
+
+
+
+
+
+
+
+
+
+#sec12{
+	margin-top: 1em;
+	background-color: white;
+	width: 88%;
+	height: 21em;
+	position: relative;
+	left: 6%;
+	border-radius: .5em;
+}
+#sec12 .xiaomi{
+	border-radius: .4em .4em 0 0;
+	width: 100%;
+	height: 3em;
+	display: flex;
+	font-family: vollkorn;
+	font-size: 18px;
+	background-color: #265f74;
+	color: white;
+	/* border: 1px dotted black; */
+}
+#sec12 .xiaomi .p1{
+	position: relative;
+	left: 2em;
+	
+}
+#sec12 .xiaomi .p2{
+	left: 77%;
+	position: relative;
+	top: -12px;
+	cursor: pointer;
+	
+}
+#sec12 .xiaomi .p2:hover{
+	cursor: pointer;
+	opacity: 1.0;
+    transition: opacity 5s;
+    transition-delay: 1s;
+	transform: rotate(5deg);
+	transform: scale(1.04,1.04);
+}
+#sec12 .xiaomi .p2 img{
+	width: 30px;
+	top: 8px;
+	position: relative;
+	background-color: white;
+	cursor: pointer;
+	opacity: 1.0;
+    transition: opacity 5s;
+    transition-delay: 1s;
+	transform: rotate(5deg);
+	transform: scale(1.04,1.04);
+	
+}
+#sec12 .xiaomi .p2 img:hover{
+	opacity: 1.0;
+    transition: opacity 5s;
+    transition-delay: 1s;
+	transform: rotate(5deg);
+	transform: scale(1.04,1.04);
+}
+.xiaomi_thumbs{
+	display: flex;
+	text-align: center;
+	align-items: center;
+	padding-top: .8em;
+
+}
+.xiaomi_thumbs div{
+	/* border: 1px dotted black; */
+	width: 13em;
+	height: 18em;
+	position: relative;
+	cursor: pointer;
+	
+}
+.xiaomi_thumbs div:hover{
+	opacity: 1.0;
+    transition: opacity 5s;
+    transition-delay: 1s;
+	transform: rotate(5deg);
+    transform: scale(1.04,1.04);
+}
+.xiaomi_thumbs div img{
+	width: 11em;
+	background-image: pink;
+	
+	border-radius: 1em;
+	position: relative;
+}
+.xiaomi_thumbs div p{
+	position: relative;
+	top: 13px;
+	margin-top: -10px;
+	left: 1.2em;
+	text-align: left;
+	font-size: 15px;
+}
+.xiaomi_thumbs div .p1{
+	font-size: 13px;
+}
+.xiaomi_thumbs div .stroked{
+	text-decoration: line-through;
+	color: gray;
+	margin-top: -15px;
+}
+
+
+
+
+
+
+
+
+
+#sec13{
+	margin-top: 1em;
+	background-color: white;
+	width: 88%;
+	height: 17em;
+	position: relative;
+	left: 6%;
+	border-radius: .5em;
+	display: flex;
+}
+#sec13 img{
+	width: 100%;
+	border-radius: 1em;
+	padding: 7px 7px 7px 7px;
+}
+#sec13 img:hover{
+	opacity: 1.0;
+    transition: opacity 5s;
+    transition-delay: 1s;
+	transform: rotate(3deg);
+    transform: scale(1.02,1.02);
+}
+
+
+
+
+
+
+
+
+
+#sec14{
+	margin-top: 1em;
+	background-color: white;
+	width: 88%;
+	height: 20em;
+	position: relative;
+	left: 6%;
+	border-radius: .5em;
+	
+}
+#sec14 .play_win{
+	border-radius: .4em .4em 0 0;
+	width: 100%;
+	height: 3em;
+	display: flex;
+	font-family: vollkorn;
+	font-size: 18px;
+	background-color: orangered;
+	color: white;
+	
+	/* border: 1px dotted black; */
+}
+#sec14 .play_win p{
+	text-align: center;
+	margin: auto;
+	position: relative;
+	left: 2em;
+	
+}
+#play_win_thumb{
+	width: 100%;
+	height: 17em;
+	display: flex;
+	
+}
+#play_win_thumb_1{
+	position: relative;
+	width: 50%;
+}
+#play_win_thumb_1 img{
+	border-radius: 1em;
+	padding: 5px 5px 5px 5px;
+}
+#play_win_thumb_1 img:hover{
+	opacity: 1.0;
+    transition: opacity 5s;
+    transition-delay: 1s;
+	transform: rotate(5deg);
+    transform: scale(1.02,1.02);
+}
+#play_win_thumb_2{
+	width: 50%;
+	height: 17em;
+	
+}
+#play_win_thumb_2 img{
+	border-radius: 1em;
+	padding: 5px 5px 5px 5px;
+}
+#play_win_thumb_2 img:hover{
+	opacity: 1.0;
+    transition: opacity 5s;
+    transition-delay: 1s;
+	transform: rotate(5deg);
+    transform: scale(1.02,1.02);
+}
+
+
+
+
+
+
+
+
+
+
+#sec15{
+	margin-top: 1em;
+	background-color: white;
+	width: 88%;
+	height: 19em;
+	position: relative;
+	left: 6%;
+	border-radius: .5em;
+}
+#sec15 .appliances_deals{
+	border-radius: .4em .4em 0 0;
+	width: 100%;
+	height: 3em;
+	display: flex;
+	font-family: vollkorn;
+	font-size: 18px;
+	background-color: orange;
+	color: black;
+	/* border: 1px dotted black; */
+}
+#sec15 .appliances_deals p{
+	position: relative;
+	margin: auto;
+	
+}
+
+.appliances_deals_thumbs{
+	display: flex;
+	text-align: center;
+	align-items: center;
+	padding-top: .8em;
+
+}
+.appliances_deals_thumbs div{
+	/* border: 1px dotted black; */
+	width: 13em;
+	height: 18em;
+	position: relative;
+	cursor: pointer;
+	
+}
+.appliances_deals_thumbs div:hover{
+	opacity: 1.0;
+    transition: opacity 5s;
+    transition-delay: 1s;
+	transform: rotate(5deg);
+    transform: scale(1.04,1.04);
+}
+.appliances_deals_thumbs div img{
+	width: 11em;
+	background-image: pink;
+	
+	border-radius: 1em;
+	position: relative;
+}
+.appliances_deals_thumbs div p{
+	position: relative;
+	top: 13px;
+	margin-top: -10px;
+	left: 1.2em;
+	text-align: left;
+	font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+#sec16{
+	margin-top: 1em;
+	background-color: white;
+	width: 88%;
+	height: 21em;
+	position: relative;
+	left: 6%;
+	border-radius: .5em;
+}
+#sec16 .appliances_deals2{
+	border-radius: .4em .4em 0 0;
+	width: 100%;
+	height: 3em;
+	display: flex;
+	font-family: vollkorn;
+	font-size: 18px;
+	background-color: #265f74;
+	color: white;
+	/* border: 1px dotted black; */
+}
+#sec16 .appliances_deals2 .p1{
+	position: relative;
+	left: 2em;
+	
+}
+#sec16 .appliances_deals2 .p2{
+	left: 77%;
+	position: relative;
+	top: -12px;
+	cursor: pointer;
+	
+}
+#sec16 .appliances_deals2 .p2:hover{
+	cursor: pointer;
+	opacity: 1.0;
+    transition: opacity 5s;
+    transition-delay: 1s;
+	transform: rotate(5deg);
+	transform: scale(1.04,1.04);
+}
+#sec16 .appliances_deals2 .p2 img{
+	width: 30px;
+	top: 8px;
+	position: relative;
+	background-color: white;
+	cursor: pointer;
+	opacity: 1.0;
+    transition: opacity 5s;
+    transition-delay: 1s;
+	transform: rotate(5deg);
+	transform: scale(1.04,1.04);
+	
+}
+#sec16 .appliances_deals2 .p2 img:hover{
+	opacity: 1.0;
+    transition: opacity 5s;
+    transition-delay: 1s;
+	transform: rotate(5deg);
+	transform: scale(1.04,1.04);
+}
+.appliances_deals2_thumbs{
+	display: flex;
+	text-align: center;
+	align-items: center;
+	padding-top: .8em;
+
+}
+.appliances_deals2_thumbs div{
+	/* border: 1px dotted black; */
+	width: 13em;
+	height: 18em;
+	position: relative;
+	cursor: pointer;
+	
+}
+.appliances_deals2_thumbs div:hover{
+	opacity: 1.0;
+    transition: opacity 5s;
+    transition-delay: 1s;
+	transform: rotate(5deg);
+    transform: scale(1.04,1.04);
+}
+.appliances_deals2_thumbs div img{
+	width: 11em;
+	background-image: pink;
+	
+	border-radius: 1em;
+	position: relative;
+}
+.appliances_deals2_thumbs div p{
+	position: relative;
+	top: 13px;
+	margin-top: -10px;
+	left: 1.2em;
+	text-align: left;
+	font-size: 15px;
+}
+.appliances_deals2_thumbs div .p1{
+	font-size: 13px;
+}
+.appliances_deals2_thumbs div .stroked{
+	text-decoration: line-through;
+	color: gray;
+	margin-top: -15px;
+}
+
+
+
+
+
+
+
+
+
+#sec17{
+	margin-top: 1em;
+	background-color: white;
+	width: 88%;
+	height: 39em;
+	position: relative;
+	left: 6%;
+	border-radius: .5em;
+}
+#sec17 .shop_from_our_Collection{
+	width: 100%;
+	height: 3em;
+	display: flex;
+	font-family: vollkorn;
+	font-size: 18px;
+	/* border: 1px dotted black; */
+	background-color: orangered;
+	border-radius: .4em .4em 0 0;
+}
+#sec17 .shop_from_our_Collection .p1{
+	position: relative;
+	left: 2em;
+	
+}
+#sec17 .shop_from_our_Collection .p2{
+	left: 70%;
+	position: relative;
+	top: -12px;
+	color: #ff9900;
+	cursor: pointer;
+	
+}
+#sec17 .shop_from_our_Collection .p2:hover{
+	cursor: pointer;
+	opacity: 1.0;
+    transition: opacity 5s;
+    transition-delay: 1s;
+	transform: rotate(5deg);
+	transform: scale(1.04,1.04);
+}
+#sec17 .shop_from_our_Collection .p2 img{
+	width: 30px;
+	top: 8px;
+	position: relative;
+	background-color: #ff9900;
+	cursor: pointer;
+	opacity: 1.0;
+    transition: opacity 5s;
+    transition-delay: 1s;
+	transform: rotate(5deg);
+	transform: scale(1.04,1.04);
+	
+}
+#sec17 .shop_from_our_Collection .p2 img:hover{
+	opacity: 1.0;
+    transition: opacity 5s;
+    transition-delay: 1s;
+	transform: rotate(5deg);
+	transform: scale(1.04,1.04);
+}
+.shop_from_our_Collection_thumbs{
+	display: flex;
+	text-align: center;
+	align-items: center;
+	padding-top: .5em;
+
+}
+.shop_from_our_Collection_thumbs div{
+	/* border: 1px dotted black; */
+	width: 13em; 
+	height: 17em;
+	position: relative;
+	cursor: pointer;
+	
+}
+.shop_from_our_Collection_thumbs div:hover{
+	opacity: 1.0;
+    transition: opacity 5s;
+    transition-delay: 1s;
+	transform: rotate(5deg);
+    transform: scale(1.04,1.04);
+}
+.shop_from_our_Collection_thumbs div img{
+	width: 11em;
+	background-image: pink;
+	
+	border-radius: 1em;
+	position: relative;
+}
+.shop_from_our_Collection_thumbs div p{
+	position: relative;
+	top: 13px;
+	margin-top: -10px;
+	left: 1.2em;
+	text-align: left;
+	font-size: 15px;
+}
+.shop_from_our_Collection_thumbs div .p1{
+	font-size: 13px;
+}
+.shop_from_our_Collection_thumbs div .stroked{
+	text-decoration: line-through;
+	color: gray;
+	margin-top: -15px;
+}
+
+
+
+
+
+
+
+
+
+#sec18{
+	margin-top: 1em;
+	background-color: white;
+	width: 88%;
+	height: 21em;
+	position: relative;
+	left: 6%;
+	border-radius: .5em;
+}
+#sec18 .Recent_search{
+	border-radius: .4em .4em 0 0;
+	width: 100%;
+	height: 3em;
+	display: flex;
+	font-family: vollkorn;
+	font-size: 18px;
+	background-color: #e7bac2;
+	color: black;
+	/* border: 1px dotted black; */
+}
+#sec18 .Recent_search .p1{
+	position: relative;
+	left: 2em;
+	
+}
+#sec18 .Recent_search .p2{
+	left: 63%;
+	position: relative;
+	top: -12px;
+	cursor: pointer;
+	
+}
+#sec18 .Recent_search .p2:hover{
+	cursor: pointer;
+	opacity: 1.0;
+    transition: opacity 5s;
+    transition-delay: 1s;
+	transform: rotate(5deg);
+	transform: scale(1.04,1.04);
+}
+#sec18 .Recent_search .p2 img{
+	width: 30px;
+	top: 8px;
+	position: relative;
+	background-color: white;
+	cursor: pointer;
+	opacity: 1.0;
+    transition: opacity 5s;
+    transition-delay: 1s;
+	transform: rotate(5deg);
+	transform: scale(1.04,1.04);
+	
+}
+#sec18 .Recent_search .p2 img:hover{
+	opacity: 1.0;
+    transition: opacity 5s;
+    transition-delay: 1s;
+	transform: rotate(5deg);
+	transform: scale(1.04,1.04);
+}
+.Recent_search_thumbs{
+	display: flex;
+	text-align: center;
+	align-items: center;
+	padding-top: .8em;
+
+}
+.Recent_search_thumbs div{
+	/* border: 1px dotted black; */
+	width: 13em;
+	height: 18em;
+	position: relative;
+	cursor: pointer;
+	
+}
+.Recent_search_thumbs div:hover{
+	opacity: 1.0;
+    transition: opacity 5s;
+    transition-delay: 1s;
+	transform: rotate(5deg);
+    transform: scale(1.04,1.04);
+}
+.Recent_search_thumbs div img{
+	width: 11em;
+	background-image: pink;
+	
+	border-radius: 1em;
+	position: relative;
+}
+.Recent_search_thumbs div p{
+	position: relative;
+	top: 13px;
+	margin-top: -10px;
+	left: 1.2em;
+	text-align: left;
+	font-size: 15px;
+}
+.Recent_search_thumbs div .p1{
+	font-size: 13px;
+}
+.Recent_search_thumbs div .stroked{
+	text-decoration: line-through;
+	color: gray;
+	margin-top: -15px;
+}
+
+
+
+
+
+
+
+
+
+#sec19{
+	margin-top: 1em;
+	background-color: white;
+	width: 88%;
+	height: 21em;
+	position: relative;
+	left: 6%;
+	border-radius: .5em;
+}
+#sec19 .handpicked{
+	border-radius: .4em .4em 0 0;
+	width: 100%;
+	height: 3em;
+	display: flex;
+	font-family: vollkorn;
+	font-size: 18px;
+	background-color: #e7bac2;
+	color: black;
+	/* border: 1px dotted black; */
+}
+#sec19 .handpicked .p1{
+	position: relative;
+	left: 2em;
+	
+}
+#sec19 .handpicked .p2{
+	left: 63%;
+	position: relative;
+	top: -12px;
+	cursor: pointer;
+	
+}
+#sec19 .handpicked .p2:hover{
+	cursor: pointer;
+	opacity: 1.0;
+    transition: opacity 5s;
+    transition-delay: 1s;
+	transform: rotate(5deg);
+	transform: scale(1.04,1.04);
+}
+#sec19 .handpicked .p2 img{
+	width: 30px;
+	top: 8px;
+	position: relative;
+	background-color: white;
+	cursor: pointer;
+	opacity: 1.0;
+    transition: opacity 5s;
+    transition-delay: 1s;
+	transform: rotate(5deg);
+	transform: scale(1.04,1.04);
+	
+}
+#sec19 .handpicked .p2 img:hover{
+	opacity: 1.0;
+    transition: opacity 5s;
+    transition-delay: 1s;
+	transform: rotate(5deg);
+	transform: scale(1.04,1.04);
+}
+.handpicked_thumbs{
+	display: flex;
+	text-align: center;
+	align-items: center;
+	padding-top: .8em;
+
+}
+.handpicked_thumbs div{
+	/* border: 1px dotted black; */
+	width: 13em;
+	height: 18em;
+	position: relative;
+	cursor: pointer;
+	
+}
+.handpicked_thumbs div:hover{
+	opacity: 1.0;
+    transition: opacity 5s;
+    transition-delay: 1s;
+	transform: rotate(5deg);
+    transform: scale(1.04,1.04);
+}
+.handpicked_thumbs div img{
+	width: 11em;
+	background-image: pink;
+	
+	border-radius: 1em;
+	position: relative;
+}
+.handpicked_thumbs div p{
+	position: relative;
+	top: 13px;
+	margin-top: -10px;
+	left: 1.2em;
+	text-align: left;
+	font-size: 15px;
+}
+.handpicked_thumbs div .p1{
+	font-size: 13px;
+}
+.handpicked_thumbs div .stroked{
+	text-decoration: line-through;
+	color: gray;
+	margin-top: -15px;
+}
+
+
+
+
+
+
+
+
+
+#sec20{
+	margin-top: 1em;
+	background-color: white;
+	width: 88%;
+	height: 22em;
+	position: relative;
+	left: 6%;
+	border-radius: .5em;
+}
+#sec20 .beauty_deals{
+	border-radius: .4em .4em 0 0;
+	width: 100%;
+	height: 3em;
+	display: flex;
+	font-family: vollkorn;
+	font-size: 18px;
+	background-color: orange;
+	color: black;
+	/* border: 1px dotted black; */
+}
+#sec20 .beauty_deals p{
+	position: relative;
+	margin: auto;
+	
+}
+
+.beauty_deals_thumbs{
+	display: flex;
+	text-align: center;
+	align-items: center;
+	padding-top: .8em;
+
+}
+.beauty_deals_thumbs div{
+	/* border: 1px dotted black; */
+	width: 13em;
+	height: 18em;
+	position: relative;
+	cursor: pointer;
+	
+}
+.beauty_deals_thumbs div:hover{
+	opacity: 1.0;
+    transition: opacity 5s;
+    transition-delay: 1s;
+	transform: rotate(5deg);
+    transform: scale(1.04,1.04);
+}
+.beauty_deals_thumbs div img{
+	width: 11em;
+	background-image: pink;
+	
+	border-radius: 1em;
+	position: relative;
+}
+.beauty_deals_thumbs div p{
+	position: relative;
+	top: 13px;
+	margin-top: -10px;
+	left: 1.2em;
+	text-align: left;
+	font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+#sec21{
+	margin-top: 1em;
+	background-color: white;
+	width: 88%;
+	height: 21em;
+	position: relative;
+	left: 6%;
+	border-radius: .5em;
+}
+#sec21 .beauty_deals2{
+	border-radius: .4em .4em 0 0;
+	width: 100%;
+	height: 3em;
+	display: flex;
+	font-family: vollkorn;
+	font-size: 18px;
+	background-color: #e7bac2;
+	color: black;
+	/* border: 1px dotted black; */
+}
+#sec21 .beauty_deals2 .p1{
+	position: relative;
+	left: 2em;
+	
+}
+.beauty_deals2_thumbs{
+	display: flex;
+	text-align: center;
+	align-items: center;
+	padding-top: .8em;
+
+}
+.beauty_deals2_thumbs div{
+	/* border: 1px dotted black; */
+	width: 13em;
+	height: 18em;
+	position: relative;
+	cursor: pointer;
+	
+}
+.beauty_deals2_thumbs div:hover{
+	opacity: 1.0;
+    transition: opacity 5s;
+    transition-delay: 1s;
+	transform: rotate(5deg);
+    transform: scale(1.04,1.04);
+}
+.beauty_deals2_thumbs div img{
+	width: 11em;
+	background-image: pink;
+	
+	border-radius: 1em;
+	position: relative;
+}
+.beauty_deals2_thumbs div p{
+	position: relative;
+	top: 13px;
+	margin-top: -10px;
+	left: 1.2em;
+	text-align: left;
+	font-size: 15px;
+}
+.beauty_deals2_thumbs div .p1{
+	font-size: 13px;
+}
+.beauty_deals2_thumbs div .stroked{
+	text-decoration: line-through;
+	color: gray;
+	margin-top: -15px;
+}
+
+
+
+
+
+
+
+
+
+#sec22{
+	margin-top: 1em;
+	background-color: white;
+	width: 88%;
+	height: 27em;
+	position: relative;
+	left: 6%;
+	border-radius: .5em;
+}
+#sec22 .exclusive{
+	width: 100%;
+	height: 3em;
+	display: flex;
+	font-family: vollkorn;
+	font-size: 18px;
+	/* border: 1px dotted black; */
+	background-color: orangered;
+	border-radius: .4em .4em 0 0;
+}
+#sec22 .exclusive .p1{
+	position: relative;
+	left: 2em;
+	
+}
+#sec22 .exclusive .p2{
+	left: 70%;
+	position: relative;
+	top: -12px;
+	color: #ff9900;
+	cursor: pointer;
+	
+}
+#sec22 .exclusive .p2:hover{
+	cursor: pointer;
+	opacity: 1.0;
+    transition: opacity 5s;
+    transition-delay: 1s;
+	transform: rotate(5deg);
+	transform: scale(1.04,1.04);
+}
+#sec22 .exclusive .p2 img{
+	width: 30px;
+	top: 8px;
+	position: relative;
+	background-color: #ff9900;
+	cursor: pointer;
+	opacity: 1.0;
+    transition: opacity 5s;
+    transition-delay: 1s;
+	transform: rotate(5deg);
+	transform: scale(1.04,1.04);
+	
+}
+#sec22 .exclusive .p2 img:hover{
+	opacity: 1.0;
+    transition: opacity 5s;
+    transition-delay: 1s;
+	transform: rotate(5deg);
+	transform: scale(1.04,1.04);
+}
+.exclusive_thumbs{
+	display: flex;
+	text-align: center;
+	align-items: center;
+	padding-top: .5em;
+
+}
+.exclusive_thumbs div{
+	/* border: 1px dotted black; */
+	width: 13em; 
+	height: 11em;
+	position: relative;
+	cursor: pointer;
+	
+}
+.exclusive_thumbs div:hover{
+	opacity: 1.0;
+    transition: opacity 5s;
+    transition-delay: 1s;
+	transform: rotate(5deg);
+    transform: scale(1.04,1.04);
+}
+.exclusive_thumbs div img{
+	width: 11em;
+	background-image: pink;
+	
+	border-radius: 1em;
+	position: relative;
+}
+.exclusive_thumbs div p{
+	position: relative;
+	top: 13px;
+	margin-top: -10px;
+	left: 1.2em;
+	text-align: left;
+	font-size: 15px;
+}
+.exclusive_thumbs div .p1{
+	font-size: 13px;
+}
+.exclusive_thumbs div .stroked{
+	text-decoration: line-through;
+	color: gray;
+	margin-top: -15px;
+}
+
+
+/* Orelega
+silky
+vollkorn
+vollkorn_bold
+pacifico
+gasoek
+sofia
+cherry */

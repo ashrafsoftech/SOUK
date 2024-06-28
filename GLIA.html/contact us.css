@@ -1,0 +1,96 @@
+img {
+    height: 9em;
+    width: 10em;
+}
+
+.h1 {
+    float: right;
+    margin-right: 20.5em;
+    color: rgb(25, 25, 128);
+    margin-top: 0.5em;
+}
+
+#nav {
+    background-color: rgb(25, 25, 128);
+    height: 4em;
+    width: 100%;
+}
+
+.ol {
+    list-style-type: none;
+    display: flex;
+}
+
+li {
+    margin-right: 4.5em;
+    font-size: 24px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    margin-top: 0.7em;
+}
+
+.a-li {
+    color: #007BFF;
+}
+
+.a-li:link {
+    text-decoration: none;
+}
+
+.a-li:visited {
+    color: #007BFF
+}
+
+.a-li:hover {
+    color: #f1f1f1;
+    font-weight: bold;
+}
+
+.a-li:active {
+    color: white;
+}
+
+.logo2 {
+    width: 400px;
+    height: 400px;
+}
+
+.Home {
+    height: 40px;
+    width: 40px;
+    margin-top: 2em;
+    float: left;
+    margin-left: 0em;
+}
+
+.contact-p {
+    font-size: 25px;
+    color: navy;
+    margin-top: 2em;
+}
+
+.p-sec {
+    font-size: 25px;
+    margin-top: 2em;
+    color: lightblue;
+}
+
+.con {
+    font-size: 50px;
+}
+
+.ba {
+    color: navy;
+    font-size: 30px;
+}
+
+#nav_bar {
+    height: 5em;
+    width: 100%;
+    background-color: navy;
+}
+
+.div-con {
+    text-align: center;
+    justify-content: center;
+}

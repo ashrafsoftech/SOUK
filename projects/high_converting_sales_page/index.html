@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Sales Page</title>
+</head>
+<body>
+
+	<header>
+		<h1>3D Printer Kit</h1>
+	</header>
+
+	<section id="product">
+		<h2>Product Details</h2>
+		<img src="pic/my pictiures 132.jpg" alt="please wait" width="250px">
+		<p>Our 3D Printer includes everything you need to assemble your own 3D printer at home. Comes with a detailed guide and online support. Unleash into the world of 3D printing</p>
+		<p>price: $229.99</p>
+	</section>
+
+
+	<form id="orderForm">
+		<h2>Order Form</h2>
+
+		<label for="quantity">Quantity Odered</label>
+		<select name="quantity" id="quantity">
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+		</select>
+
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name" required>
+
+		<label for="email">Email Address:</label>
+		<input type="email" id="email" name="email" required><output id="email-error"></output>
+
+		<label for="phone">Phone Number:</label>
+		<input type="tel" id="phone" name="phone" required>
+
+
+
+		<label for="shipping">Shipping Method:</label>
+		<div>
+			<input type="radio" name="shipping" id="overnight" value="overnight" checked>
+			<label for="overnight">Overnignt ($19.99)</label>
+		</div>
+		<div>
+			<input type="radio" name="shipping" id="2day" value="2day">
+			<label for="2day">2 Days ($9.99)</label>
+		</div>
+		<div>
+			<input type="radio" name="shipping" id="budget" value="budget">
+			<label for="budget">Budget (free)</label>
+		</div>
+
+
+
+		<h3>Billing Address</h3>
+		<label for="baddress">Street Address: </label>
+		<input type="text" id="baddress" name="baddress" required>
+
+		<label for="bcity">City: </label>
+		<input type="text" id="bcity" name="bcity" required>
+
+		<label for="bsate">State: </label>
+		<select id="bsate" name="bsate" required>
+			<option value="">please select</option>
+			<option value="FCT">Abuja</option>
+			<option value="Lagos">lagos</option>
+			<option value="kwara">Kwara</option>
+			<option value="kogi">kogi</option>
+			<option value="Ibadan">Ibadan</option>
+			<option value="Nassarawa">Nassarawa</option>
+			<option value="Ekiti">Ekiti</option>
+			<option value="Ebonyi">Ebonyi</option>
+			<option value="Anambra">Anambra</option>
+		</select>
+
+		<label for="bzip">Zip Code</label>
+		<input type="text" id="bzip" name="bzip" required>
+
+
+
+
+		<h3>Shipping Address (if different)</h3>
+		<div>
+			<label for="same-address">Same as Billing Address</label>
+			<input type="checkbox" id="same-address">
+		</div>
+
+		<label for="saddress">Street Address: </label>
+		<input type="text" id="saddress" name="saddress" required>
+
+		<label for="scity">City: </label>
+		<input type="text" id="scity" name="scity" required>
+
+		<label for="ssate">State: </label>
+		<select id="ssate" name="ssate" required>
+			<option value="">please select</option>
+			<option value="FCT">Abuja</option>
+			<option value="Lagos">lagos</option>
+			<option value="kwara">Kwara</option>
+			<option value="kogi">kogi</option>
+			<option value="Ibadan">Ibadan</option>
+			<option value="Nassarawa">Nassarawa</option>
+			<option value="Ekiti">Ekiti</option>
+			<option value="Ebonyi">Ebonyi</option>
+			<option value="Anambra">Anambra</option>
+		</select>
+
+		<label for="szip">Zip Code</label>
+		<input type="text" id="szip" name="szip" required>
+
+
+		<h3>Payment Method</h3>
+
+		<div>
+			<input type="radio" id="paypal" name="payment" value="paypal" required>
+			<label for="paypal">Paypal</label>
+		</div>
+		<div>
+			<input type="radio" id="credit-card" name="payment" value="ceditcard" required>
+			<label for="ceditcard">Credit Card</label>
+		</div>	
+
+
+		<div id="paypal-fields">
+			<div>
+				<label for="paypalemail">Paypal Email Address</label>
+				<input type="email" id="paypalemail" name="paypalemail">
+			</div>
+		</div>
+		<div id="credit-card-fields">
+			<div>
+				<label for="cardname">Name on Card</label>
+				<input type="text" id="cardname" name="cardname">
+			</div>
+
+			<div>
+				<label for="cardnumber">Card Number</label>
+				<input type="text" id="cardnumber" name="cardnumber">
+			</div>
+
+			<div>
+				<label for="expirationdate">Expiration Date</label>
+				<input type="date" id="expirationdate" name="expirationdate">
+			</div>
+			
+			<div>
+				<label for="securitycode">3-Digit Security Code: </label>
+				<input type="text" id="securitycode" name="securitycode">
+			</div>
+		</div>
+
+		<input type="submit" value="Place Order">
+	</form>
+	<script src="sales.js"></script>
+</body>
+</html>

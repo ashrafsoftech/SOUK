@@ -1,0 +1,41 @@
+#nav-bar {
+    height: 7em;
+    width: 100%;
+    background-color: hsl(0, 100%, 50%)
+}
+
+.ol {
+    list-style-type: none;
+    display: flex;
+    float: right;
+}
+
+li {
+    margin-top: 1rem;
+    margin-right: 2em;
+    font-size: 40px;
+    color: rgb(255, 255, 255)
+}
+
+img {
+    margin-left: 2rem;
+    margin-top: 0.2rem;
+    width: 150px;
+    height: 100px
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: yellow;
+}
+
+a:active {
+    color: yellow;
+}
+
+a:link {
+    color: yellow;
+}

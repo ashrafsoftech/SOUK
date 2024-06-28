@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <style>
+            body{
+			margin: 0;
+			padding: 0;
+			background-color: #ccc;
+		}
+		#cnt{
+			display: flex;
+			justify-content: center;
+		}
+		#form{
+			width: 400px;
+			height: 42  0px;
+			border: 2px dotted black;
+			margin: 10px;
+			padding: 20px;
+			font-size: 1.5em;
+			font-family: Arial, Helvetica, sans-serif;
+			background-color: white;
+		}
+		#h11{
+			font-size: 1.25em;
+			margin: 0;
+			margin-bottom: 50px;
+			padding: 20px;
+		}
+        #un{
+			font-size: .85em;
+            margin-bottom: 10px;
+            width: 100%;
+		}
+		#pw{
+			font-size: .85em;
+			margin-bottom: 20px;
+            width: 100%;
+		}
+		#button1{
+			width: 100%;
+			font-size: .85em;
+			font-weight: bold;
+			background-color: #ff8b00;
+			height: 40px;
+		}
+		#p1{
+			text-align: center;
+			font-size: .8em;
+		}
+                .header-main{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                }   .row-2{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Log In</title>
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" class="js-color-style" href="css/color-1.css">
+    <script src="jq/jquery-3.6.3.min.js"></script>
+    <script>
+		$(
+			function(){
+				$("form").submit(function(){
+					let UN = $("input:first").val()
+					let PW = $("input:last").val()
+					console.log("Username: " + UN);
+					console.log(" Password :" + PW);
+					$("#form").fadeOut(5000)
+				})
+
+				$("#p1").hide();
+
+				$("input").focus(function(){
+					$(this).css("background-color", "yellow");
+				}).blur(function(){
+					$(this).css("background-color", "white");
+				});
+
+				$("input:last").focus(function(){
+					$("#p1").slideDown();
+				});
+
+				$("input:last").change(function(){
+					let pw = $("input:last").val();
+					if(pw.length < 8){
+						$("#p1").text("Password must be 8 characters above!").show();
+					}else{
+						$("#p1").text("")
+					}
+				});
+				
+			}	
+		);
+	</script>
+
+</head>
+<body>
+    <!-- main wrapper start -->
+    <div class="main-wrapper">
+
+            <!-- header starts -->
+    <header class="header">
+            <div class="container">
+                <div class="header-main ">
+                    <div class="header-logo">
+                        <a href="index.html"><span>E</span>STUDY</a>
+                    </div>
+                    <button type="button" class="header-hamburger-btn js-header-menu-toggler">
+                        <span></span>
+                    </button>
+                    <div class="header-backdrop js-header-backdrop"></div>
+                    <nav class="header-menu js-header-menu">
+                        <button type="button" class="header-close-btn js-header-menu-toggler">
+                            <i class="fas fa-times"></i>
+                        </button>
+                        <ul class="menu">
+                            <li class="menu-item"> <a href="index.html">Home</a> </li>
+                            <li class="menu-item menu-item-has-children">
+                                 <a href="#" class="js-toggle-sub-menu">courses <i class="fas fa-chevron-down"></i></a> 
+                                <ul class="sub-menu js-sub-menu">
+                                    <li class="sub-menu-item"><a href="courses.html">courses</a></li>
+                                    <li class="sub-menu-item"><a href="course details.html">course details</a></li>
+                                </ul>
+                                </li>
+                            <li class="menu-item menu-item-has-children"> <a href="#" class="js-toggle-sub-menu">Pages <i class="fas fa-chevron-down"></i></a>
+                            <ul class="sub-menu js-sub-menu">
+                                <li class="sub-menu-item"> <a href="log-in.html">log in</a> </li>
+                                <li class="sub-menu-item"> <a href="sign-up.html">sign up</a> </li>
+                            </ul>
+                            </li>
+                            <li class="menu-item"> <a href="contact.html">Contact</a> </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <!-- header end -->
+
+        <!-- breadcrumb start -->
+        <div class="breadcrumb-nav">
+            <div class="container">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb mb-0">
+                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">log in</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+        <!-- breadcrumb end -->
+        <!-- log-in section starts -->
+        <div class="col-lg-10">
+            <div class="log-in section d-flex justify-content-center mb-3">
+                <div id="cnt">
+		            <div id="form">
+			            <h1 id="h11">Sign into your account</h1>
+    			        <form action="#">
+	    			        <label for="un">Username</label><br>
+		    		        <input placeholder="Username required" type="text" id="un"><br>
+			        	    <label for="pw">Password</label><br>
+				            <input placeholder="Password" type="text" id="pw"/><br>
+			    	        <p id="p1">Keep Password Secret.</p>
+		    		        <button id="button1">Log In</button>
+			            </form>
+		            </div>
+	            </div>
+            </div>
+        </div>
+                             
+            <!-- <h3 class="align-items-center">Log In to Your Account</h3>
+
+                                    <form>
+                                        <div>
+                                        <input type="text" placeholder="Email" required>
+                                    </div>
+                                    <br>
+                                    <div class="f-pass">
+                                        forgot Password?
+                                    </div>
+                                        <div>
+                                        <input type="text" placeholder="Password" required>
+                                    </div>
+                                    <br>
+                                    <div>
+                                        <button class="btn btn-theme btn-block">log in</button>
+                                        
+                                    </div>
+                                    </form>
+                                    </div>     
+                                </div> -->
+
+        <!-- log-in section ends -->
+            <!-- footer start -->
+    <footer class="footer">
+            <div class="footer-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6 col-lg-3">
+                            <div class="footer-item">
+                                <h3 class="footer-logo"><span>E</span>study</h3>
+                                <ul>
+                                    <li><a href="#">about</a></li>
+                                    <li><a href="#">what we offer</a></li>
+                                    <li><a href="#">career</a></li>
+                                    <li><a href="#">certificates</a></li>
+                                    <li><a href="#">blog</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-3">
+                            <div class="footer-item">
+                                <h3>learning</h3>
+                                <ul>
+                                    <li><a href="#">get the app</a></li>
+                                    <li><a href="#">testimonials</a></li>
+                                    <li><a href="#">pricing</a></li>
+                                    <li><a href="#">faq</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-3">
+                            <div class="footer-item">
+                                <h3>more</h3>
+                                <ul>
+                                    <li><a href="#">affiliates</a></li>
+                                    <li><a href="#">become a web creator</a></li>
+                                    <li><a href="#">training webinars</a></li>
+                                    <li><a href="#">free personality test</a></li>
+                                    <li><a href="#">help and support</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-3">
+                            <div class="footer-item">
+                                <h3>get in touch</h3>
+                                <ul>
+                                    <li><a href="#"><i class="fab fa-facebook social-icon"></i>facebook</a></li>
+                                    <li><a href="#"><i class="fab fa-twitter social-icon"></i>twitter</a></li>
+                                    <li><a href="#"><i class="fab fa-instagram social-icon"></i>instagram</a></li>
+                                    <li><a href="#"><i class="fab fa-youtube social-icon"></i>youtube</a></li>
+                                    <li><a href="#"><i class="fab fa-whatsapp social-icon"></i>whatsapp</a></li>
+                                    <li><a href="#"><i class="fab fa-linkedin social-icon"></i>linkedin</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="container">
+                    <p class="m-0 py-4 text-center">Copyright &copy; 2023 The ESTUDY</p>
+                </div>
+            </div>
+        </footer>
+        <!-- footer end -->
+    
+    </div>
+    <!-- main wrapper end -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
+	

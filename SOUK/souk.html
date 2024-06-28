@@ -1,0 +1,1374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- <link rel="stylesheet" href="bootstrap.min.css">
+	<script src="jquery files/jq/jquery-3.6.3.min.js"></script>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script> 
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
+
+	<link rel="stylesheet" href="souk.css">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>SOUK</title>
+	
+</head>
+	<body style="background-color: #ff9900;">
+		
+		<header>
+			<div id="AD">
+				 <h1>YOUR EVERYDAY, DELIVERED <span>FOR FREE</span><img src="pic/bag.png" alt='please wait'></h1> 
+			</div>
+			<div id="NO">
+				<p>To Order<br/><span>0816 890 2838</span></p>
+			</div>
+		</header>
+				
+
+		
+		<div id="sec_head">
+			<img id="img" src="pic/logo.png" alt="please wait">
+			<p id="p"><a target="_blank" href="#" class="sell">Sell On Assouq</a></p>
+	
+			<p id="sec_head-sec_p">Assouq</p>
+			<img id="sec_head-sec_img" src="pic/logo.png" alt="please wait">
+	
+			<img id="img1" src="pic/pay.png" alt="please wait">
+			<p id="p1"><a target="_blank" href="#" class="pay">PAY</a></p>
+	
+			<img id="img1" src="pic/food.png" alt="please wait">
+			<p id="p1"><a target="_blank" href="#" class="others">FOOD</a></p>
+	
+			<img id="img1" src="pic/party.png" alt="please wait">
+			<p id="p1"><a target="_blank" href="#" class="others">PARTY</a></p>
+	
+			<img id="img1" src="pic/logistics.png" alt="please wait">
+			<p id="p1"><a target="_blank" href="#" class="others">LOGISTICS</a></p>
+		</div>
+	
+	
+		<div id="search" id="myHeader">
+			<p id="h1">Assouq</p>
+			<img id="main_logo" src="pic/logo.png" alt="please wait">
+	
+	
+			<input id="inpu" type="text" placeholder="			Search products, brands and categories">
+			<label for="search"></label>
+			<button class="search_btn"><a href="https://www.google.com/search?q=food+logo&oq=food+l&aqs=chrome.1.69i57j0i433i512j0i512l2j46i199i465i512j0i512l2j69i60.4639j0j9&sourceid=chrome&ie=UTF-8">SEARCH</a></button>
+	
+	
+			<div class="dropdown">
+				
+	  			<button class="dropbtn"><!--<img style="width: 50px;height: 50px;" src="pic/account.png" alt="please wait">-->Account</button>
+		  		<div class="dropdown-content">
+					<div style="min-width: 200px;background-color: white;margin-top: 20px;" class="accordion-body">
+				  		<a target="_self" id="signIn" href="#">SIGN IN</a>
+		  				<hr style="border-color: #ccccccad;margin-top: 1em;">
+			
+		  				<div id="Acc">
+							<img style="width: 50px;height: 50px;" src="pic/account.png" alt="please wait">
+							<a target="_self" id="a" href="#">My Account</a>
+		  				</div>
+		  				<div id="Acc">
+							<img style="width: 50px;height: 50px;" src="pic/order.png" alt="please wait">
+							<a target="_self" id="a" href="#">Order</a>
+		  				</div>
+				  		<div id="Acc">
+							<img style="width: 50px;height: 50px;" src="pic/saved_item.png" alt="please wait">
+							<a target="_self" id="a" href="#">Saved Items</a>
+						</div>
+					</div>
+		
+	  			</div>
+			</div>
+	
+			<div class="dropdown">
+				<button class="dropbtn"><!--<img style="width: 50px;height: 50px;" src="pic/question_mark.png" alt="please wait">-->Help</button>
+				<div class="dropdown-content">
+					<div style="min-width: 200px;background-color: white;margin-top: 20px;" class="accordion-body">	
+	
+						<div id="help_div">  
+							<a target="_self" id="a" href="#">Help Center</a>
+		  				</div>
+		  				<div id="help_div">
+							<a target="_self" id="a" href="#">Place & track order</a>
+		  				</div>
+		  				<div id="help_div">
+							<a target="_self" id="a" href="#">Order cancellation</a>
+		  				</div>
+		  				<div id="help_div">
+							<a target="_self" id="a" href="#">Returns & Refund</a>
+		  				</div>
+		  				<div id="help_div">
+							<a target="_self" id="a" href="#">Payment & Assouq account</a>
+		  				</div>
+		  				<hr style="border-color: #ccccccad;margin-top: 2em;margin-bottom: 2em;">
+		  				<button id="liveChat">LIVE CHAT</button>
+					</div>
+		  		</div>
+			</div>
+		
+			<button id="cart"><a target="_self" href="#">Cart</a></button>
+		</div>
+
+
+
+
+
+
+
+
+
+
+		<div id="sec4">
+			
+			
+			<div class="menu">
+				<div class="menu_dropdown">
+					<p class="menu_dropbtn" onclick="myFunction()">Super market</p>
+					<div id="myDropdown" class="menu_dropdown-content">
+				  		<a href="#">Link 1</a>
+				  		<a href="#">Link 2</a>
+				  		<a href="#">Link 3</a>
+					</div>
+
+					<p class="menu_dropbtn"  onclick="myFunction()">Healthy & Beauty</p>
+					<div id="myDropdown" class="menu_dropdown-content">
+				  		<a href="#">Link 1</a>
+				  		<a href="#">Link 2</a>
+				  		<a href="#">Link 3</a>
+					</div>
+					
+					<p class="menu_dropbtn"  onclick="myFunction()">Home & Office</p>
+					<div id="myDropdown" class="menu_dropdown-content">
+				  		<a href="#">Link 1</a>
+				  		<a href="#">Link 2</a>
+				  		<a href="#">Link 3</a>
+					</div>
+
+					<p class="menu_dropbtn"  onclick="myFunction()">Appliances</p>
+					<div id="myDropdown" class="menu_dropdown-content">
+				  		<a href="#">Link 1</a>
+				  		<a href="#">Link 2</a>
+				  		<a href="#">Link 3</a>
+					</div>
+
+					<p class="menu_dropbtn"  onclick="myFunction()">Phones & Tablets</p>
+					<div id="myDropdown" class="menu_dropdown-content">
+				  		<a href="#">Link 1</a>
+				  		<a href="#">Link 2</a>
+				  		<a href="#">Link 3</a>
+					</div>
+
+					<p class="menu_dropbtn"  onclick="myFunction()">Computing</p>
+					<div id="myDropdown" class="menu_dropdown-content">
+				  		<a href="#">Link 1</a>
+				  		<a href="#">Link 2</a>
+				  		<a href="#">Link 3</a>
+					</div>
+
+					<p class="menu_dropbtn"  onclick="myFunction()">Electronic</p>
+					<div id="myDropdown" class="menu_dropdown-content">
+				  		<a href="#">Link 1</a>
+				  		<a href="#">Link 2</a>
+				  		<a href="#">Link 3</a>
+					</div>
+
+					<p class="menu_dropbtn"  onclick="myFunction()">Fashion</p>
+					<div id="myDropdown" class="menu_dropdown-content">
+				  		<a href="#">Link 1</a>
+				  		<a href="#">Link 2</a>
+				  		<a href="#">Link 3</a>
+					</div>
+
+					<p class="menu_dropbtn"  onclick="myFunction()">Baby Products</p>
+					<div id="myDropdown" class="menu_dropdown-content">
+				  		<a href="#">Link 1</a>
+				  		<a href="#">Link 2</a>
+				  		<a href="#">Link 3</a>
+					</div>
+
+					<p class="menu_dropbtn"  onclick="myFunction()">Gaming</p>
+					<div id="myDropdown" class="menu_dropdown-content">
+				  		<a href="#">Link 1</a>
+				  		<a href="#">Link 2</a>
+				  		<a href="#">Link 3</a>
+					</div>
+
+					<p class="menu_dropbtn"  onclick="myFunction()">Sporting Goods</p>
+					<div id="myDropdown" class="menu_dropdown-content">
+				  		<a href="#">Link 1</a>
+				  		<a href="#">Link 2</a>
+				  		<a href="#">Link 3</a>
+					</div>
+
+					<p class="menu_dropbtn"  onclick="myFunction()">Other categories</p>
+					<div id="myDropdown" class="menu_dropdown-content">
+				  		<a href="#">Link 1</a>
+				  		<a href="#">Link 2</a>
+				  		<a href="#">Link 3</a>
+					</div>
+				</div>
+
+			</div>
+
+		
+			<!-- Slideshow container -->
+			<div class="slideshow-container">
+
+				<!-- Full-width images with number and caption text -->
+				<div class="mySlides fade">
+	 				<!-- <div class="numbertext">1 / 8</div> -->
+	  				<img src="pic/slider_pics/1.png" style="width:750px;height: 400px;cursor: pointer;border-radius: 1em;">	  				
+				</div>
+  
+				<div class="mySlides fade">
+	  				<!-- <div class="numbertext">2 / 8</div> -->
+	  				<img src="pic/slider_pics/2.jpg" style="width:750px;height: 400px;cursor: pointer;border-radius: 1em;">		
+				</div>
+  
+				<div class="mySlides fade">
+	  				<!-- <div class="numbertext">3 / 8</div> -->
+	  				<img src="pic/slider_pics/3.png" style="width:750px;height: 400px;cursor: pointer;border-radius: 1em;">
+				</div>
+
+				<div class="mySlides fade">
+					<!-- <div class="numbertext">4 / 8</div> -->
+					<img src="pic/slider_pics/4.jpg" style="width:750px;height: 400px;cursor: pointer;border-radius: 1em;">					 
+			   </div>
+ 
+			   <div class="mySlides fade">
+					<!-- <div class="numbertext">5 / 8</div> -->
+					<img src="pic/slider_pics/5.png" style="width:750px;height: 400px;cursor: pointer;border-radius: 1em;">					 
+			   </div>
+ 
+			   <div class="mySlides fade">
+					 <!-- <div class="numbertext">6 / 8</div> -->
+					 <img src="pic/slider_pics/6.png" style="width:750px;height: 400px;cursor: pointer;border-radius: 1em;">
+	 		   </div>
+  
+			   <div class="mySlides fade">
+					<!-- <div class="numbertext">7 / 8</div> -->
+					<img src="pic/slider_pics/7.png" style="width:750px;height: 400px;cursor: pointer;border-radius: 1em;">				
+		  		</div>
+
+		  		<div class="mySlides fade">
+					<!-- <div class="numbertext">8 / 8</div> -->
+					<img src="pic/slider_pics/10.jpg" style="width:750px;height: 400px;cursor: pointer;border-radius: 1em;">
+		  		</div>
+
+				<!-- The dots/circles -->
+  				<div style="text-align:center;position: relative;top: -.68em;">
+					<span class="dot" onclick="currentSlide(1)"></span> 
+					<span class="dot" onclick="currentSlide(2)"></span> 
+					<span class="dot" onclick="currentSlide(3)"></span>
+					<span class="dot" onclick="currentSlide(4)"></span> 
+					<span class="dot" onclick="currentSlide(5)"></span> 
+					<span class="dot" onclick="currentSlide(6)"></span>
+					<span class="dot" onclick="currentSlide(7)"></span> 
+					<span class="dot" onclick="currentSlide(8)"></span> 
+				</div>
+
+				<!-- Next and previous buttons -->
+				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+  			</div>
+
+			<div id="shops">
+	  			<div class="shop1">
+					<div class="shop1_first">
+						<img src="pic/call.png" alt="pls wait">
+						<p>CALL TO ORDER <span>0816-890-2838</span></p>
+					</div>
+					<div class="shop1_sec">
+						<img src="pic/sell.png" alt="pls wait">
+						<p>Sell on Assouq</p>
+					</div>
+					<div class="shop1_third">
+						<img src="pic/best_deals.png" alt="pls wait">
+						<p>Best Deals</p>
+					</div>
+	  			</div>
+	  			<div class="shop2">
+					
+	  			</div>
+			</div>
+		</div>
+
+
+
+
+
+		
+
+
+
+
+		<div id="sec5">
+			<div class="thumbs">
+				<div>
+					<img src="pic/other acessory/Artboard_1.png" alt="please wait">
+					<p>Clearance Sale</p>
+				</div>
+				<div>
+					<img src="pic/other acessory/shirt.png"alt="please wait">
+					<p>Special Offers</p>
+				</div>
+				<div>
+					<img src="pic/other acessory/phone.png" alt="please wait">
+				<p>Phones & Tablets Deals</p>
+				</div>
+				<div>
+					<img src="pic/other acessory/television.png" alt="please wait">
+					<p>Televisions</p>
+				</div>
+				<div>
+					<img src="pic/other acessory/appliances.png" alt="please wait">
+					<p>Appliances Deals</p>
+				</div>
+				<div>
+					<img src="pic/other acessory/fashion_deals.png" alt="please wait">
+					<p>Men's Sneakers</p>
+				</div>
+			</div>
+			<div class="thumbs">	
+				<div>
+					<img src="pic/other acessory/computer_deals.png" alt="please wait">
+					<p>Laptop Deals</p>
+				</div>
+				<div>
+					<img src="pic/other acessory/mobile_accessories.png" alt="please wait">
+					<p>Mobile Accessories</p>
+				</div>
+				<div>
+					<img src="pic/other acessory/electronics.png" alt="please wait">
+					<p>Electronic Deals</p>
+				</div>
+				<div>
+					<img src="pic/other acessory/home_essential.png" alt="please wait">
+					<p>Home Essentials</p>
+				</div>
+				<div>
+					<img src="pic/other acessory/grocery_deals.png" alt="please wait">
+					<p>Grocery Deals</p>
+				</div>
+				<div>
+					<img src="pic/other acessory/BUY-NOW-PAY-LATER_GIF-2.gif" alt="please wait">
+					<p>Buy Now, Pay Later</p>
+				</div>
+
+			</div>
+		</div>
+
+
+
+
+
+
+
+
+
+
+		<div id="sec6">
+			<div class="top_selling">
+				<p class="p1">Top selling items</p>
+				<p class="p2">SEE ALL <img src="pic/greaterThan.png" alt="please wait"></p>
+			</div>
+			<div class="top_selling_thumbs">
+				<div>
+					<img src="pic/top_selling/power_bank.jpg" alt="please wait">
+					<p class="p1">Ace Elec 20000 MAh Ultr...</p>
+					<p>#9,300</p>
+					<p class="stroked">#15,000</p>
+				</div>
+				<div>
+					<img src="pic/top_selling/earpod.jpg"alt="please wait">
+					<p class="p1">Wireless Bluetooth Head...</p>
+					<p>#2,980</p>
+					<p class="stroked">#5,960</p>
+				</div>
+				<div>
+					<img src="pic/top_selling/solar.jpg" alt="please wait">
+					<p class="p1">Qasa Solar Power Portabl...</p>
+					<p>#189,000</p>
+					<p class="stroked">#220,000</p>
+				</div>
+				<div>
+					<img src="pic/top_selling/phone_cooler.jpg" alt="please wait">
+					<p class="p1">Phone Cooler Wireless Sil...</p>
+					<p>#7,179</p>
+					<p class="stroked">#12,512</p>
+				</div>
+				<div>
+					<img src="pic/top_selling/jourmind.jpg" alt="please wait">
+					<p class="p1">Jourmind AC220V 30A po...</p>
+					<p>#9,900</p>
+					<p class="stroked">#12,853</p>
+				</div>
+				<div>
+					<img src="pic/top_selling/led_strip_light.jpg" alt="please wait">
+					<p class="p1">10M LED Strip Light RGB...</p>
+					<p>#7,595</p>
+					<p class="stroked">#12,665</p>
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+
+
+
+
+		<div id="sec7">
+			<div class="flashSale">
+				<p class="p1">Flash Sale</p>
+				<p class="p2">SEE ALL <img src="pic/greaterThan.png" alt="please wait"></p>
+			</div>
+			<div class="flashSale_thumbs">
+				<div>
+					<img src="pic/flashSale/socks.jpg" alt="please wait">
+					<p class="p1">Ace Elec 20000 MAh Ultr...</p>
+					<p>#9,300</p>
+					<p class="stroked">#15,000</p>
+					<p>29 items left</p>
+					<div style="width: 10em;height: 8px;background-color: grey;position: relative;left: 1em;border-radius: 2em;">
+						<div style="width: 95%;height: 100%;background-color: #ff9900;border-radius: 2em;"></div>
+					</div>
+				</div>
+				<div>
+					<img src="pic/flashSale/earpod.jpg"alt="please wait">
+					<p class="p1">Wireless Bluetooth Head...</p>
+					<p>#2,980</p>
+					<p class="stroked">#5,960</p>
+					<p>24 items left</p>
+					<div style="width: 10em;height: 8px;background-color: grey;position: relative;left: 1em;border-radius: 2em;">
+						<div style="width: 80%;height: 100%;background-color: #ff9900;border-radius: 2em;"></div>
+					</div>
+				</div>
+				<div>
+					<img src="pic/flashSale/ladiesShoes.jpg" alt="please wait">
+					<p class="p1">Qasa Solar Power Portabl...</p>
+					<p>#189,000</p>
+					<p class="stroked">#220,000</p>
+					<p>190 items left</p>
+					<div style="width: 10em;height: 8px;background-color: grey;position: relative;left: 1em;border-radius: 2em;">
+						<div style="width: 60%;height: 100%;background-color: #ff9900;border-radius: 2em;"></div>
+					</div>
+				</div>
+				<div>
+					<img src="pic/flashSale/Men'sLeatherShoe.jpg" alt="please wait">
+					<p class="p1">Phone Cooler Wireless Sil...</p>
+					<p>#7,179</p>
+					<p class="stroked">#12,512</p>
+					<p>27 items left</p>
+					<div style="width: 10em;height: 8px;background-color: grey;position: relative;left: 1em;border-radius: 2em;">
+						<div style="width: 90%;height: 100%;background-color: #ff9900;border-radius: 2em;"></div>
+					</div>
+				</div>
+				<div>
+					<img src="pic/flashSale/MensTrenchBlazers.jpg" alt="please wait">
+					<p class="p1">Jourmind AC220V 30A po...</p>
+					<p>#9,900</p>
+					<p class="stroked">#12,853</p>
+					<p>17 items left</p>
+					<div style="width: 10em;height: 8px;background-color: grey;position: relative;left: 1em;border-radius: 2em;">
+						<div style="width: 90%;height: 100%;background-color: #ff9900;border-radius: 2em;"></div>
+					</div>
+				</div>
+				<div>
+					<img src="pic/flashSale/2024ladiesClassicFashion.gif" alt="please wait">
+					<p class="p1">10M LED Strip Light RGB...</p>
+					<p>#7,595</p>
+					<p class="stroked">#12,665</p>
+					<p>26 items left</p>
+					<div style="width: 10em;height: 8px;background-color: grey;position: relative;left: 1em;border-radius: 2em;">
+						<div style="width: 85%;height: 100%;background-color: #ff9900;border-radius: 2em;"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+
+
+
+
+
+		<!-- Slideshow container -->
+		<!-- <div class="slideshow1-container">
+			<div class="flashSale">
+				<p class="p1">Flash Sale</p>
+				<p class="p2">SEE ALL <img src="pic/greaterThan.png" alt="please wait"></p>
+			</div>
+			<div class="flashSale_thumbs2"> -->
+				<!-- Full-width images with number and caption text -->
+				<!-- <div class="mySlidesOne fade">
+					<img src="pic/top_selling/power_bank.jpg" alt="please wait">
+					<p class="p1">Ace Elec 20000 MAh Ultr...</p>
+					<p>#9,300</p>
+					<p class="stroked">#15,000</p> -->
+					
+					<!-- <div class="numbertext">1 / 8</div> -->
+				<!-- </div>
+
+				<div class="mySlidesOne fade"> -->
+		  			<!-- <div class="numbertext">2 / 8</div> -->
+		  			<!-- <img src="pic/top_selling/power_bank.jpg" alt="please wait">
+					<p class="p1">Ace Elec 20000 MAh Ultr...</p>
+					<p>#9,300</p>
+					<p class="stroked">#15,000</p>
+				</div>
+
+				<div class="mySlidesOne fade"> -->
+		  			<!-- <div class="numbertext">3 / 8</div> -->
+		  			<!-- <img src="pic/top_selling/power_bank.jpg" alt="please wait">
+					<p class="p1">Ace Elec 20000 MAh Ultr...</p>
+					<p>#9,300</p>
+					<p class="stroked">#15,000</p>
+				</div>
+
+				<div class="mySlidesOne fade"> -->
+					<!-- <div class="numbertext">4 / 8</div> -->
+					<!-- <img src="pic/top_selling/power_bank.jpg" alt="please wait">
+					<p class="p1">Ace Elec 20000 MAh Ultr...</p>
+					<p>#9,300</p>
+					<p class="stroked">#15,000</p>
+   				</div>
+
+   				<div class="mySlidesOne fade"> -->
+					<!-- <div class="numbertext">5 / 8</div> -->
+					<!-- <img src="pic/top_selling/power_bank.jpg" alt="please wait">
+					<p class="p1">Ace Elec 20000 MAh Ultr...</p>
+					<p>#9,300</p>
+					<p class="stroked">#15,000</p>
+   				</div>
+
+   				<div class="mySlidesOne fade"> -->
+		 			<!-- <div class="numbertext">6 / 8</div> -->
+		 			<!-- <img src="pic/top_selling/power_bank.jpg" alt="please wait">
+					<p class="p1">Ace Elec 20000 MAh Ultr...</p>
+					<p>#9,300</p>
+					<p class="stroked">#15,000</p>
+				</div>
+			</div>
+			<div class="flashSale_thumbs">
+   				<div class="mySlidesOne fade"> -->
+					<!-- <div class="numbertext">7 / 8</div> -->
+					<!-- <img src="pic/top_selling/power_bank.jpg" alt="please wait">
+					<p class="p1">Ace Elec 20000 MAh Ultr...</p>
+					<p>#9,300</p>
+					<p class="stroked">#15,000</p>
+	  			</div>
+
+	  			<div class="mySlidesOne fade"> -->
+					<!-- <div class="numbertext">8 / 8</div> -->
+					<!-- <img src="pic/top_selling/power_bank.jpg" alt="please wait">
+					<p class="p1">Ace Elec 20000 MAh Ultr...</p>
+					<p>#9,300</p>
+					<p class="stroked">#15,000</p>
+	  			</div>
+			</div>	  
+				   -->
+			<!-- The dots/circles -->
+	  		<!-- <div style="text-align:center;position: relative;top: -.68em;">
+				<span class="dotOne" onclick="currentSlide(1)"></span> 
+				<span class="dotOne" onclick="currentSlide(2)"></span> 
+				<span class="dotOne" onclick="currentSlide(3)"></span>
+				<span class="dotOne" onclick="currentSlide(4)"></span> 
+				<span class="dotOne" onclick="currentSlide(5)"></span> 
+				<span class="dotOne" onclick="currentSlide(6)"></span>
+				<span class="dotOne" onclick="currentSlide(7)"></span> 
+				<span class="dotOne" onclick="currentSlide(8)"></span> 
+			</div> -->
+
+			<!-- Next and previous buttons -->
+			<!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+  		</div> -->
+
+
+
+
+
+
+
+
+
+		<div id="sec9">
+			<div id="sec9_1"><img src="pic/Magic-deals-male-572X250.jpg" alt=""></div>
+			<div id="sec9_2"><img src="pic/Magic-deals-female-572X250.jpg" alt=""></div>
+		</div>
+
+
+
+
+
+
+
+
+
+
+		<div id="sec10">
+			<div class="AnniversaryDeals">
+				<p class="p1">Anniversary Deals To Expect</p>
+				<p class="p2">SEE ALL <img src="pic/greaterThan.png" alt="please wait"></p>
+			</div>
+			<div class="AnniversaryDeals_thumbs">
+				<div>
+					<img src="pic/flashSale/socks.jpg" alt="please wait">
+					<p class="p1">Ace Elec 20000 MAh Ultr...</p>
+					<p>#9,300</p>
+					<p class="stroked">#15,000</p>
+				</div>
+				<div>
+					<img src="pic/flashSale/earpod.jpg"alt="please wait">
+					<p class="p1">Wireless Bluetooth Head...</p>
+					<p>#2,980</p>
+					<p class="stroked">#5,960</p>
+				</div>
+				<div>
+					<img src="pic/flashSale/ladiesShoes.jpg" alt="please wait">
+					<p class="p1">Qasa Solar Power Portabl...</p>
+					<p>#189,000</p>
+					<p class="stroked">#220,000</p>
+				</div>
+				<div>
+					<img src="pic/flashSale/Men'sLeatherShoe.jpg" alt="please wait">
+					<p class="p1">Phone Cooler Wireless Sil...</p>
+					<p>#7,179</p>
+					<p class="stroked">#12,512</p>
+				</div>
+				<div>
+					<img src="pic/flashSale/MensTrenchBlazers.jpg" alt="please wait">
+					<p class="p1">Jourmind AC220V 30A po...</p>
+					<p>#9,900</p>
+					<p class="stroked">#12,853</p>
+				</div>
+				<div>
+					<img src="pic/flashSale/2024ladiesClassicFashion.gif" alt="please wait">
+					<p class="p1">10M LED Strip Light RGB...</p>
+					<p>#7,595</p>
+					<p class="stroked">#12,665</p>
+					
+				</div>
+			</div>
+
+
+			<div class="AnniversaryDeals_thumbs">
+				<div>
+					<img src="pic/flashSale/socks.jpg" alt="please wait">
+					<p class="p1">Ace Elec 20000 MAh Ultr...</p>
+					<p>#9,300</p>
+					<p class="stroked">#15,000</p>
+				</div>
+				<div>
+					<img src="pic/flashSale/earpod.jpg"alt="please wait">
+					<p class="p1">Wireless Bluetooth Head...</p>
+					<p>#2,980</p>
+					<p class="stroked">#5,960</p>
+				</div>
+				<div>
+					<img src="pic/flashSale/ladiesShoes.jpg" alt="please wait">
+					<p class="p1">Qasa Solar Power Portabl...</p>
+					<p>#189,000</p>
+					<p class="stroked">#220,000</p>
+				</div>
+				<div>
+					<img src="pic/flashSale/Men'sLeatherShoe.jpg" alt="please wait">
+					<p class="p1">Phone Cooler Wireless Sil...</p>
+					<p>#7,179</p>
+					<p class="stroked">#12,512</p>
+				</div>
+				<div>
+					<img src="pic/flashSale/MensTrenchBlazers.jpg" alt="please wait">
+					<p class="p1">Jourmind AC220V 30A po...</p>
+					<p>#9,900</p>
+					<p class="stroked">#12,853</p>
+				</div>
+				<div>
+					<img src="pic/flashSale/2024ladiesClassicFashion.gif" alt="please wait">
+					<p class="p1">10M LED Strip Light RGB...</p>
+					<p>#7,595</p>
+					<p class="stroked">#12,665</p>
+				</div>
+
+			</div>
+
+
+			<div class="AnniversaryDeals_thumbs">
+				<div>
+					<img src="pic/flashSale/socks.jpg" alt="please wait">
+					<p class="p1">Ace Elec 20000 MAh Ultr...</p>
+					<p>#9,300</p>
+					<p class="stroked">#15,000</p>
+				</div>
+				<div>
+					<img src="pic/flashSale/earpod.jpg"alt="please wait">
+					<p class="p1">Wireless Bluetooth Head...</p>
+					<p>#2,980</p>
+					<p class="stroked">#5,960</p>
+				</div>
+				<div>
+					<img src="pic/flashSale/ladiesShoes.jpg" alt="please wait">
+					<p class="p1">Qasa Solar Power Portabl...</p>
+					<p>#189,000</p>
+					<p class="stroked">#220,000</p>
+				</div>
+				<div>
+					<img src="pic/flashSale/Men'sLeatherShoe.jpg" alt="please wait">
+					<p class="p1">Phone Cooler Wireless Sil...</p>
+					<p>#7,179</p>
+					<p class="stroked">#12,512</p>
+				</div>
+				<div>
+					<img src="pic/flashSale/MensTrenchBlazers.jpg" alt="please wait">
+					<p class="p1">Jourmind AC220V 30A po...</p>
+					<p>#9,900</p>
+					<p class="stroked">#12,853</p>
+				</div>
+				<div>
+					<img src="pic/flashSale/2024ladiesClassicFashion.gif" alt="please wait">
+					<p class="p1">10M LED Strip Light RGB...</p>
+					<p>#7,595</p>
+					<p class="stroked">#12,665</p>
+				</div>
+
+			</div>
+
+
+			<div class="AnniversaryDeals_thumbs">
+				<div>
+					<img src="pic/flashSale/socks.jpg" alt="please wait">
+					<p class="p1">Ace Elec 20000 MAh Ultr...</p>
+					<p>#9,300</p>
+					<p class="stroked">#15,000</p>
+					
+				</div>
+				<div>
+					<img src="pic/flashSale/earpod.jpg"alt="please wait">
+					<p class="p1">Wireless Bluetooth Head...</p>
+					<p>#2,980</p>
+					<p class="stroked">#5,960</p>
+					
+				</div>
+				<div>
+					<img src="pic/flashSale/ladiesShoes.jpg" alt="please wait">
+					<p class="p1">Qasa Solar Power Portabl...</p>
+					<p>#189,000</p>
+					<p class="stroked">#220,000</p>
+					
+				</div>
+				<div>
+					<img src="pic/flashSale/Men'sLeatherShoe.jpg" alt="please wait">
+					<p class="p1">Phone Cooler Wireless Sil...</p>
+					<p>#7,179</p>
+					<p class="stroked">#12,512</p>
+					
+					
+				</div>
+				<div>
+					<img src="pic/flashSale/MensTrenchBlazers.jpg" alt="please wait">
+					<p class="p1">Jourmind AC220V 30A po...</p>
+					<p>#9,900</p>
+					<p class="stroked">#12,853</p>
+					
+				</div>
+				<div>
+					<img src="pic/flashSale/2024ladiesClassicFashion.gif" alt="please wait">
+					<p class="p1">10M LED Strip Light RGB...</p>
+					<p>#7,595</p>
+					<p class="stroked">#12,665</p>
+										
+				</div>
+
+			</div>
+		</div>
+
+
+
+
+
+
+
+
+
+		<div id="sec11">
+			<div id="sec11_1"><img src="pic/Magic-deals-male-572X250.jpg" alt=""></div>
+			<div id="sec11_2"><img src="pic/Magic-deals-female-572X250.jpg" alt=""></div>
+		</div>
+
+
+
+
+
+
+
+
+
+
+		<div id="sec12">
+			<div class="xiaomi">
+				<p class="p1">Xiaomi Official Store</p>
+				<p class="p2">SEE ALL <img src="pic/greaterThan.png" alt="please wait"></p>
+			</div>
+			<div class="xiaomi_thumbs">
+				<div>
+					<img src="pic/top_selling/power_bank.jpg" alt="please wait">
+					<p class="p1">Ace Elec 20000 MAh Ultr...</p>
+					<p>#9,300</p>
+					<p class="stroked">#15,000</p>
+				</div>
+				<div>
+					<img src="pic/top_selling/earpod.jpg"alt="please wait">
+					<p class="p1">Wireless Bluetooth Head...</p>
+					<p>#2,980</p>
+					<p class="stroked">#5,960</p>
+				</div>
+				<div>
+					<img src="pic/top_selling/solar.jpg" alt="please wait">
+					<p class="p1">Qasa Solar Power Portabl...</p>
+					<p>#189,000</p>
+					<p class="stroked">#220,000</p>
+				</div>
+				<div>
+					<img src="pic/top_selling/phone_cooler.jpg" alt="please wait">
+					<p class="p1">Phone Cooler Wireless Sil...</p>
+					<p>#7,179</p>
+					<p class="stroked">#12,512</p>
+				</div>
+				<div>
+					<img src="pic/top_selling/jourmind.jpg" alt="please wait">
+					<p class="p1">Jourmind AC220V 30A po...</p>
+					<p>#9,900</p>
+					<p class="stroked">#12,853</p>
+				</div>
+				<div>
+					<img src="pic/top_selling/led_strip_light.jpg" alt="please wait">
+					<p class="p1">10M LED Strip Light RGB...</p>
+					<p>#7,595</p>
+					<p class="stroked">#12,665</p>
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+
+
+
+
+		<div id="sec13">
+			<img src="pic/Magic-deals-male-572X250.jpg" alt="">
+			
+		</div>
+
+
+
+
+
+
+
+
+
+
+		<div id="sec14">
+			<div class="play_win">
+				<p>Play & Win Now | Download Jumia App</p>
+			</div>
+			<div id="play_win_thumb">
+				<div id="play_win_thumb_1"><img src="pic/Magic-deals-male-572X250.jpg" alt=""></div>
+				<div id="play_win_thumb_2"><img src="pic/Magic-deals-female-572X250.jpg" alt=""></div>
+			</div>
+		</div>
+
+
+
+
+
+
+
+
+
+
+		<div id="sec15">
+			<div class="appliances_deals">
+				<p>Appliances Deals</p>
+			</div>
+			<div class="appliances_deals_thumbs">
+				<div>
+					<img src="pic/top_selling/power_bank.jpg" alt="please wait">
+					<p>Ace Elec 20000 MAh Ultr...</p>
+					
+				</div>
+				<div>
+					<img src="pic/top_selling/earpod.jpg"alt="please wait">
+					<p>Wireless Bluetooth Head...</p>
+					
+				</div>
+				<div>
+					<img src="pic/top_selling/solar.jpg" alt="please wait">
+					<p>Qasa Solar Power Portabl...</p>
+					
+				</div>
+				<div>
+					<img src="pic/top_selling/phone_cooler.jpg" alt="please wait">
+					<p>Phone Cooler Wireless Sil...</p>
+					
+				</div>
+				<div>
+					<img src="pic/top_selling/jourmind.jpg" alt="please wait">
+					<p>Jourmind AC220V 30A po...</p>
+					
+				</div>
+				<div>
+					<img src="pic/top_selling/led_strip_light.jpg" alt="please wait">
+					<p>10M LED Strip Light RGB...</p>
+					
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+
+
+
+
+
+		<div id="sec16">
+			<div class="appliances_deals2">
+				<p class="p1">Appliances Deals</p>
+				<p class="p2">SEE ALL <img src="pic/greaterThan.png" alt="please wait"></p>
+			</div>
+			<div class="appliances_deals2_thumbs">
+				<div>
+					<img src="pic/top_selling/power_bank.jpg" alt="please wait">
+					<p class="p1">Ace Elec 20000 MAh Ultr...</p>
+					<p>#9,300</p>
+					<p class="stroked">#15,000</p>
+				</div>
+				<div>
+					<img src="pic/top_selling/earpod.jpg"alt="please wait">
+					<p class="p1">Wireless Bluetooth Head...</p>
+					<p>#2,980</p>
+					<p class="stroked">#5,960</p>
+				</div>
+				<div>
+					<img src="pic/top_selling/solar.jpg" alt="please wait">
+					<p class="p1">Qasa Solar Power Portabl...</p>
+					<p>#189,000</p>
+					<p class="stroked">#220,000</p>
+				</div>
+				<div>
+					<img src="pic/top_selling/phone_cooler.jpg" alt="please wait">
+					<p class="p1">Phone Cooler Wireless Sil...</p>
+					<p>#7,179</p>
+					<p class="stroked">#12,512</p>
+				</div>
+				<div>
+					<img src="pic/top_selling/jourmind.jpg" alt="please wait">
+					<p class="p1">Jourmind AC220V 30A po...</p>
+					<p>#9,900</p>
+					<p class="stroked">#12,853</p>
+				</div>
+				<div>
+					<img src="pic/top_selling/led_strip_light.jpg" alt="please wait">
+					<p class="p1">10M LED Strip Light RGB...</p>
+					<p>#7,595</p>
+					<p class="stroked">#12,665</p>
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+
+
+
+
+
+		<div id="sec17">
+			<div class="shop_from_our_Collection">
+				<p class="p1">Shop From Our Collection</p>
+				<p class="p2">SEE ALL <img src="pic/greaterThan.png" alt="please wait"></p>
+			</div>
+			<div class="shop_from_our_Collection_thumbs">
+				<div>
+					<img src="pic/shop_from_collection/fridge.jpg" alt="please wait">
+					<p class="p1">Ace Elec 20000 MAh Ultr...</p>
+					
+				</div>
+				<div>
+					<img src="pic/shop_from_collection/fridge.jpg"alt="please wait">
+					<p class="p1">Wireless Bluetooth Head...</p>
+					
+				</div>
+				<div>
+					<img src="pic/shop_from_collection/fridge.jpg" alt="please wait">
+					<p class="p1">Qasa Solar Power Portabl...</p>
+					
+				</div>
+				<div>
+					<img src="pic/shop_from_collection/fridge.jpg" alt="please wait">
+					<p class="p1">Phone Cooler Wireless Sil...</p>
+					
+				</div>
+				<div>
+					<img src="pic/shop_from_collection/fridge.jpg" alt="please wait">
+					<p class="p1">Jourmind AC220V 30A po...</p>
+					
+				</div>
+				<div>
+					<img src="pic/shop_from_collection/fridge.jpg" alt="please wait">
+					<p class="p1">10M LED Strip Light RGB...</p>
+					
+					
+				</div>
+			</div>
+
+
+			<div class="shop_from_our_Collection_thumbs">
+				<div>
+					<img src="pic/shop_from_collection/fridge.jpg" alt="please wait">
+					<p class="p1">Ace Elec 20000 MAh Ultr...</p>
+					
+				</div>
+				<div>
+					<img src="pic/shop_from_collection/fridge.jpg"alt="please wait">
+					<p class="p1">Wireless Bluetooth Head...</p>
+					
+				</div>
+				<div>
+					<img src="pic/shop_from_collection/fridge.jpg" alt="please wait">
+					<p class="p1">Qasa Solar Power Portabl...</p>
+					
+				</div>
+				<div>
+					<img src="pic/shop_from_collection/fridge.jpg" alt="please wait">
+					<p class="p1">Phone Cooler Wireless Sil...</p>
+					
+				</div>
+				<div>
+					<img src="pic/shop_from_collection/fridge.jpg" alt="please wait">
+					<p class="p1">Jourmind AC220V 30A po...</p>
+					
+				</div>
+				<div>
+					<img src="pic/shop_from_collection/fridge.jpg" alt="please wait">
+					<p class="p1">10M LED Strip Light RGB...</p>
+					
+				</div>
+
+			</div>
+
+		</div>
+
+
+
+
+
+
+
+
+
+		<div id="sec18">
+			<div class="Recent_search">
+				<p class="p1">Your Recent Search | Power  20000mah</p>
+				<p class="p2">SEE ALL <img src="pic/greaterThan.png" alt="please wait"></p>
+			</div>
+			<div class="Recent_search_thumbs">
+				<div>
+					<img src="pic/top_selling/power_bank.jpg" alt="please wait">
+					<p class="p1">Ace Elec 20000 MAh Ultr...</p>
+					<p>#9,300</p>
+					<p class="stroked">#15,000</p>
+				</div>
+				<div>
+					<img src="pic/top_selling/earpod.jpg"alt="please wait">
+					<p class="p1">Wireless Bluetooth Head...</p>
+					<p>#2,980</p>
+					<p class="stroked">#5,960</p>
+				</div>
+				<div>
+					<img src="pic/top_selling/solar.jpg" alt="please wait">
+					<p class="p1">Qasa Solar Power Portabl...</p>
+					<p>#189,000</p>
+					<p class="stroked">#220,000</p>
+				</div>
+				<div>
+					<img src="pic/top_selling/phone_cooler.jpg" alt="please wait">
+					<p class="p1">Phone Cooler Wireless Sil...</p>
+					<p>#7,179</p>
+					<p class="stroked">#12,512</p>
+				</div>
+				<div>
+					<img src="pic/top_selling/jourmind.jpg" alt="please wait">
+					<p class="p1">Jourmind AC220V 30A po...</p>
+					<p>#9,900</p>
+					<p class="stroked">#12,853</p>
+				</div>
+				<div>
+					<img src="pic/top_selling/led_strip_light.jpg" alt="please wait">
+					<p class="p1">10M LED Strip Light RGB...</p>
+					<p>#7,595</p>
+					<p class="stroked">#12,665</p>
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+
+
+
+
+		<div id="sec19">
+			<div class="handpicked">
+				<p class="p1"><b>Handpicked For You |</b>  Up  60% OFF</p>
+				<p class="p2">SEE ALL <img src="pic/greaterThan.png" alt="please wait"></p>
+			</div>
+			<div class="handpicked_thumbs">
+				<div>
+					<img src="pic/top_selling/power_bank.jpg" alt="please wait">
+					<p class="p1">Ace Elec 20000 MAh Ultr...</p>
+					<p>#9,300</p>
+					<p class="stroked">#15,000</p>
+				</div>
+				<div>
+					<img src="pic/top_selling/earpod.jpg"alt="please wait">
+					<p class="p1">Wireless Bluetooth Head...</p>
+					<p>#2,980</p>
+					<p class="stroked">#5,960</p>
+				</div>
+				<div>
+					<img src="pic/top_selling/solar.jpg" alt="please wait">
+					<p class="p1">Qasa Solar Power Portabl...</p>
+					<p>#189,000</p>
+					<p class="stroked">#220,000</p>
+				</div>
+				<div>
+					<img src="pic/top_selling/phone_cooler.jpg" alt="please wait">
+					<p class="p1">Phone Cooler Wireless Sil...</p>
+					<p>#7,179</p>
+					<p class="stroked">#12,512</p>
+				</div>
+				<div>
+					<img src="pic/top_selling/jourmind.jpg" alt="please wait">
+					<p class="p1">Jourmind AC220V 30A po...</p>
+					<p>#9,900</p>
+					<p class="stroked">#12,853</p>
+				</div>
+				<div>
+					<img src="pic/top_selling/led_strip_light.jpg" alt="please wait">
+					<p class="p1">10M LED Strip Light RGB...</p>
+					<p>#7,595</p>
+					<p class="stroked">#12,665</p>
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+
+
+
+
+		<div id="sec20">
+			<div class="beauty_deals">
+				<p>Beauty Deals</p>
+			</div>
+			<div class="beauty_deals_thumbs">
+				<div>
+					<img src="pic/shop_from_collection/fridge.jpg" alt="please wait">
+					<p>Ace Elec 20000 MAh Ultr...</p>
+					
+				</div>
+				<div>
+					<img src="pic/shop_from_collection/fridge.jpg"alt="please wait">
+					<p>Wireless Bluetooth Head...</p>
+					
+				</div>
+				<div>
+					<img src="pic/shop_from_collection/fridge.jpg" alt="please wait">
+					<p>Qasa Solar Power Portabl...</p>
+					
+				</div>
+				<div>
+					<img src="pic/shop_from_collection/fridge.jpg" alt="please wait">
+					<p>Phone Cooler Wireless Sil...</p>
+					
+				</div>
+				<div>
+					<img src="pic/shop_from_collection/fridge.jpg" alt="please wait">
+					<p>Jourmind AC220V 30A po...</p>
+					
+				</div>
+				<div>
+					<img src="pic/shop_from_collection/fridge.jpg" alt="please wait">
+					<p>10M LED Strip Light RGB...</p>
+					
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+
+
+
+
+		<div id="sec21">
+			<div class="beauty_deals2">
+				<p class="p1">Beauty Deals</p>
+			</div>
+			<div class="beauty_deals2_thumbs">
+				<div>
+					<img src="pic/top_selling/power_bank.jpg" alt="please wait">
+					<p class="p1">Ace Elec 20000 MAh Ultr...</p>
+					<p>#9,300</p>
+					<p class="stroked">#15,000</p>
+				</div>
+				<div>
+					<img src="pic/top_selling/earpod.jpg"alt="please wait">
+					<p class="p1">Wireless Bluetooth Head...</p>
+					<p>#2,980</p>
+					<p class="stroked">#5,960</p>
+				</div>
+				<div>
+					<img src="pic/top_selling/solar.jpg" alt="please wait">
+					<p class="p1">Qasa Solar Power Portabl...</p>
+					<p>#189,000</p>
+					<p class="stroked">#220,000</p>
+				</div>
+				<div>
+					<img src="pic/top_selling/phone_cooler.jpg" alt="please wait">
+					<p class="p1">Phone Cooler Wireless Sil...</p>
+					<p>#7,179</p>
+					<p class="stroked">#12,512</p>
+				</div>
+				<div>
+					<img src="pic/top_selling/jourmind.jpg" alt="please wait">
+					<p class="p1">Jourmind AC220V 30A po...</p>
+					<p>#9,900</p>
+					<p class="stroked">#12,853</p>
+				</div>
+				<div>
+					<img src="pic/top_selling/led_strip_light.jpg" alt="please wait">
+					<p class="p1">10M LED Strip Light RGB...</p>
+					<p>#7,595</p>
+					<p class="stroked">#12,665</p>
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+
+
+
+
+		<div id="sec22">
+			<div class="exclusive">
+				<p class="p1">Exclusive Brand Partners</p>
+				<p class="p2">SEE ALL <img src="pic/greaterThan.png" alt="please wait"></p>
+			</div>
+			<div class="exclusive_thumbs">
+				<div>
+					<img src="pic/top_selling/earpod.jpg" alt="please wait">
+										
+				</div>
+				<div>
+					<img src="pic/top_selling/earpod.jpg"alt="please wait">
+										
+				</div>
+				<div>
+					<img src="pic/top_selling/earpod.jpg" alt="please wait">
+										
+				</div>
+				<div>
+					<img src="pic/top_selling/earpod.jpg" alt="please wait">
+										
+				</div>
+				<div>
+					<img src="pic/top_selling/earpod.jpg" alt="please wait">
+										
+				</div>
+				<div>
+					<img src="pic/top_selling/earpod.jpg" alt="please wait">
+										
+				</div>
+			</div>
+
+
+			<div class="exclusive_thumbs">
+				<div>
+					<img src="pic/top_selling/earpod.jpg" alt="please wait">
+										
+				</div>
+				<div>
+					<img src="pic/top_selling/earpod.jpg"alt="please wait">
+										
+				</div>
+				<div>
+					<img src="pic/top_selling/earpod.jpg" alt="please wait">
+										
+				</div>
+				<div>
+					<img src="pic/top_selling/earpod.jpg" alt="please wait">
+										
+				</div>
+				<div>
+					<img src="pic/top_selling/earpod.jpg" alt="please wait">
+										
+				</div>
+				<div>
+					<img src="pic/top_selling/earpod.jpg" alt="please wait">
+										
+				</div>
+
+			</div>
+
+		</div>		
+
+
+
+
+
+
+
+		<div style="width: 100%;height: 20em;">
+
+		</div>
+
+
+
+
+
+
+	<script src="souk.js"></script>
+	</body>
+</html>

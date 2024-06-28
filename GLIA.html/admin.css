@@ -1,0 +1,86 @@
+img {
+    height: 9em;
+    width: 10em;
+}
+
+.mis {
+    float: right;
+    margin-right: 20.5em;
+    color: rgb(25, 25, 128);
+    margin-top: 0.5em;
+}
+
+#nav {
+    background-color: rgb(25, 25, 128);
+    height: 4em;
+    width: 100%;
+}
+
+.ol {
+    list-style-type: none;
+    display: flex;
+}
+
+li {
+    margin-right: 4.5em;
+    font-size: 24px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    margin-top: 0.7em;
+}
+
+.a-li {
+    color: #007BFF;
+}
+
+.a-li:link {
+    text-decoration: none;
+}
+
+.a-li:visited {
+    color: #007BFF
+}
+
+.a-li:hover {
+    color: #f1f1f1;
+    font-weight: bold;
+}
+
+.a-li:active {
+    color: white;
+}
+
+#nav1 {
+    background-color: navy;
+    text-align: center;
+    align-content: center;
+    height: 6em;
+    width: 100%;
+}
+
+#admin {
+    padding-top: 0.5em;
+    color: #999;
+}
+
+.carousel-item {
+    height: 32rem;
+    background-color: rgb(2, 2, 128);
+    position: relative;
+}
+
+.admission {
+    float: left;
+    color: chartreuse;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 2em;
+    font-size: 50px;
+}
+
+.admission_p {
+    text-align: left;
+    float: right;
+    margin-left: 26em;
+    margin-top: -2em;
+    font-size: 26px;
+}
